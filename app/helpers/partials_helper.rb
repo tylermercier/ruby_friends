@@ -1,7 +1,7 @@
 # encoding: utf-8
 module PartialsHelper
   def logged_in?
-    not @user.nil?
+    @user.present?
   end
 
   def render_partial(template)
@@ -25,15 +25,7 @@ module PartialsHelper
   end
 
   def pretty_date(time)
-   time.strftime("%d %b %Y")
-  end
-
-  def post_show_page?
-    request.path_info =~ /\/posts\/\d+$/
-  end
-
-  def delete_post_button(post_id)
-    erb :_delete_post_button, locals: { post_id: post_id}
+    time.strftime("%d %b %Y")
   end
 end
 
