@@ -23,8 +23,8 @@ Setup database
 
 Start server
 
-    bundle exec shotgun
+    rake server
 
 Start console
 
-    bundle exec tux
+    rake console
