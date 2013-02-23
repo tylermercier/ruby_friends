@@ -1,0 +1,6 @@
+*.DS_Store
+.bundle
+db/*.db
+coverage
+log/*.log
+config/twitter.yml

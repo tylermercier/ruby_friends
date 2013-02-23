@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>Moody Friends</title>
+    <link href="/main.css" media="screen" rel="Stylesheet" type="text/css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div>
+          <h1>Moody Friends</h1>
+        </div>
+        <br clear="all"/>
+      </header>
+      <nav>
+        <p>
+          <a href='/'>Home</a> |
+          <% if @user %>
+            <a href='/sentiment'>Sentiment</a> |
+            <a href='/logout'>Logout</a>
+          <% else %>
+            <a href='/auth/twitter'>Login with twitter</a><br>
+          <% end %>
+        </p>
+      </nav>
+      <br clear="all"/>
+
+      <%= yield %>
+
+    </div>
+  </body>
+</html>
