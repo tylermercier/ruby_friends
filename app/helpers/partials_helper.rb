@@ -1,4 +1,3 @@
-# encoding: utf-8
 module PartialsHelper
   def logged_in?
     @user.present?

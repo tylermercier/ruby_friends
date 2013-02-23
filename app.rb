@@ -5,6 +5,7 @@ require "sinatra/reloader"
 require "sinatra/activerecord"
 require "active_record"
 require "logger"
+require "twitter"
 require "./lib/sentiment/sentimentalizer"
 
 class MyApp < Sinatra::Base

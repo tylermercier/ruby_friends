@@ -2,11 +2,23 @@ class Authorization < ActiveRecord::Base
   belongs_to :user
   validates :provider, :uid, :presence => true
 
-  def self.find_or_create(auth_hash)
-    unless auth = find_by_provider_and_uid(auth_hash["provider"], auth_hash["uid"])
-      user = User.create :name => auth_hash["user_info"]["name"]
-      auth = create :user => user, :provider => auth_hash["provider"], :uid => auth_hash["uid"]
+  def update_from_hash(auth_hash)
+    token = auth_hash["credentials"]["token"]
+    secret = auth_hash["credentials"]["secret"]
+    save
+  end
+
+  def self.authorize(auth_hash)
+    authorization = find_by_hash(auth_hash)
+    if authorization
+      authorization.update_from_hash(auth_hash)
+      authorization.user
+    else
+      User.build_from_hash(auth_hash)
     end
-    auth
+  end
+
+  def self.find_by_hash(auth_hash)
+    find_by_provider_and_uid(auth_hash["provider"], auth_hash["uid"])
   end
 end

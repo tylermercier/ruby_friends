@@ -4,26 +4,22 @@ require 'omniauth-twitter'
 
 class MyApp < Sinatra::Base
   twitter_config = YAML.load_file("config/twitter.yml") rescue nil || {}
+  key = ENV['CONSUMER_KEY'] || twitter_config['consumer_key']
+  secret = ENV['CONSUMER_SECRET'] || twitter_config['consumer_secret']
+
+  Twitter.configure do |config|
+    config.consumer_key = key
+    config.consumer_secret = secret
+  end
 
   use OmniAuth::Builder do
-    key = ENV['CONSUMER_KEY'] || twitter_config['consumer_key']
-    secret = ENV['CONSUMER_SECRET'] || twitter_config['consumer_secret']
     provider :twitter, key, secret
   end
 
   get '/auth/:provider/callback' do
     auth_hash = request.env['omniauth.auth']
-
-    @authorization = Authorization.find_by_provider_and_uid(auth_hash["provider"], auth_hash["uid"])
-    if @authorization
-      session[:user] = @authorization.user
-    else
-      user = User.new :name => auth_hash["info"]["name"]
-      user.authorizations.build :provider => auth_hash["provider"], :uid => auth_hash["uid"]
-      user.save
-      session[:user] = user
-    end
-
+    user = Authorization.authorize(auth_hash)
+    session[:user] = user
     redirect "/"
   end
 

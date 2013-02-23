@@ -10,6 +10,7 @@ gem "sinatra-reloader"
 gem 'omniauth'
 gem 'omniauth-oauth2'
 gem 'omniauth-twitter'
+gem 'twitter'
 
 group :development do
   gem "shotgun"
