@@ -1,4 +1,3 @@
-require 'json'
 require "#{File.dirname(__FILE__)}/analyser"
 
 class Sentimentalizer

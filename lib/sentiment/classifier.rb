@@ -23,37 +23,30 @@ class Classifier
   def initialize positive_corpus, negative_corpus
     @positive_corpus = positive_corpus
     @negative_corpus = negative_corpus
+    @totalProbability = 0;
+    @inverseTotalProbability = 0;
   end
 
-  def classify sentence
-    result = ClassificationResult.new sentence
+  def classify(text)
+    Document.new(text).each_word do |word|
+      next if STOP_WORDS.include? word
 
-    Document.new(sentence).each_token do |token|
-      next if STOP_WORDS.include? token
+      positive_matches = @positive_corpus.token_count(word)
+      negative_matches = @negative_corpus.token_count(word)
 
-      positive_count = @positive_corpus.token_count token
-      negative_count = @negative_corpus.token_count token
-
-      token_probability = calculate_probability(
-        positive_count, @positive_corpus.entry_count,
-        negative_count, @negative_corpus.entry_count)
-
-        record_probability token_probability
-
-        result.token_probabilities.push TokenProbability.new(
-          token, token_probability, @positive_corpus.entry_count,
-          positive_count, @negative_corpus.entry_count,
-          negative_count, calculate_sentiment(token_probability)
-        )
+      probability = calculate_probability(positive_matches,
+        @positive_corpus.entry_count,
+        negative_matches,
+        @negative_corpus.entry_count
+      )
+      record_probability(probability)
     end
 
-    result.overall_probability = combine_probabilities
-    result.sentiment = calculate_sentiment result.overall_probability
+    final_probability = combine_probabilities
+    sentiment = compute_sentiment(final_probability)
 
-    result
+    return { sentiment: sentiment, probability: final_probability }
   end
-
-  private
 
   def calculate_probability positive_count, positive_total, negative_count, negative_total
     total = positive_count + negative_count
@@ -72,16 +65,17 @@ class Classifier
     @inverse_total_probability = 1 if @inverse_total_probability == 0 || @inverse_total_probability.nil?
 
     @total_probability = @total_probability * probability
-    @inverse_total_probability = @inverse_total_probability*(1-probability)
-  end
-
-  def calculate_sentiment probability
-    return Sentiment::NEGATIVE if probability <= (UNKNOWN_WORD_PROBABILITY - TOLERANCE)
-    return Sentiment::POSITIVE if probability >= (UNKNOWN_WORD_PROBABILITY + TOLERANCE)
-    Sentiment::NEUTRAL
+    @inverse_total_probability = @inverse_total_probability * (1-probability)
   end
 
   def combine_probabilities
-    @total_probability / (@total_probability + @inverse_total_probability)
+    return 0.5 if (@totalProbability == 0)
+    return @totalProbability / (@totalProbability + @inverseTotalProbability)
+  end
+
+  def compute_sentiment(probability)
+    return 'negative' if (probability <= (0.5 - TOLERANCE))
+    return 'positive' if (probability >= (0.5 + TOLERANCE))
+    'neutral'
   end
 end

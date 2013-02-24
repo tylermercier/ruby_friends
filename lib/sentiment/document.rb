@@ -5,7 +5,7 @@ class Document
       uniq
   end
 
-  def each_token
-    @tokens.each { |token| yield token }
+  def each_word
+    @tokens.each { |word| yield word }
   end
 end

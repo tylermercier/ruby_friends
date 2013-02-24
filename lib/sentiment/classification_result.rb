@@ -10,9 +10,9 @@ class ClassificationResult
 
   def to_json(*a)
     {
-      text:        @text,
+      text: @text,
       probability: @overall_probability,
-      sentiment:   @sentiment
+      sentiment: @sentiment
     }.to_json(*a)
   end
 end
