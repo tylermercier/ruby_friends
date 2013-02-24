@@ -1,0 +1,8 @@
+<ul>
+<% @tweets.each do |tweet| %>
+  <li>
+    <h2><%= pretty_date(tweet[:created_at]) %> - <%= tweet[:user][:screen_name] %></h2>
+    <span><%= tweet[:text] %></span>
+  </li>
+<% end %>
+</ul>
