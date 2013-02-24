@@ -24,7 +24,8 @@ module PartialsHelper
   end
 
   def pretty_date(time)
-    time.strftime("%d %b %Y")
+    #time.strftime("%d %b %Y")
+    time.strftime("%I:%M%p")
   end
 end
 

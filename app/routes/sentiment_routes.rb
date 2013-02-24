@@ -7,11 +7,14 @@ class MyApp < Sinatra::Base
   end
 
   get "/feed" do
-    # @sentiment = Sentimentalizer.analyze('This is a statement')
+    time_block 'total time' do
+      @sentiment = Sentimentalizer.analyze('This is a statement')
+    end
+
     user = session[:user]
     client = user.twitter_client
 
     content_type :json
-    client.home_timeline.to_json
+    @sentiment.to_json
   end
 end

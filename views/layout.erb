@@ -5,28 +5,19 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   </head>
   <body>
-    <div class="container">
-      <header>
-        <div>
-          <h1>Moody Friends</h1>
-        </div>
-        <br clear="all"/>
-      </header>
+    <header>
       <nav>
-        <p>
-          <a href='/'>Home</a> |
+        <ul>
+          <li><a href="/">Home</a></li>
           <% if @user %>
-            <a href='/sentiment'>Sentiment</a> |
-            <a href='/logout'>Logout</a>
+            <li><a href='/sentiment'>Sentiment</a></li>
+            <li><a href='/logout'>Logout</a></li>
           <% else %>
-            <a href='/auth/twitter'>Login with twitter</a><br>
+            <li><a href='/auth/twitter'>Login with twitter</a></li>
           <% end %>
-        </p>
+        </ul>
       </nav>
-      <br clear="all"/>
-
-      <%= yield %>
-
-    </div>
+    </header>
+    <%= yield %>
   </body>
 </html>

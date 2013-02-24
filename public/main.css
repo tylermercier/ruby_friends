@@ -1,29 +1,42 @@
-body {font-size:16px; font-family:verdana;}
-img {border:none;}
-h2 {font-size:20px;}
-
-header h1 {
-  margin:0;
-  font-size:24px;
+html,
+body,
+button,
+input,
+select,
+textarea {
+  color: #333;
+  font-family: Georgia, Serif;
 }
-
-nav {
-  float: right;
-}
-
-.container {
+body {
   margin:0 auto;
   width:850px;
 }
-
-.connect_button {
-  margin:20 auto;
-  width:250px;
-  font-size:20px;
-  color:red;
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
 }
-
-.timeline {
-  margin:0 auto;
-  width:700px
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0;
+}
+img {
+  border:none;
+}
+a {
+  color: #669;
+  text-decoration:none;
+}
+ul {
+  list-style:none;
+  text-align:center;
+  padding:10px 0;
+}
+ul li {
+  display:inline;
+  padding:0 10px;
+}
+nav ul{
+  padding: 10px;
+  text-align: right;
+  border-bottom:1px solid #eee;
 }

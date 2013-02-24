@@ -8,6 +8,17 @@ require "logger"
 require "twitter"
 require "./lib/sentiment/sentimentalizer"
 
+def ask(msg, &block)
+  puts block.inspect
+end
+
+def time_block(msg, &block)
+    beginning_time = Time.now
+    block.call
+    end_time = Time.now
+    puts "#{msg} : #{(end_time - beginning_time)*1000} milliseconds"
+  end
+
 class MyApp < Sinatra::Base
   enable :sessions
   enable :logging
