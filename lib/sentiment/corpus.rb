@@ -36,10 +36,8 @@ class Corpus
 
   def count_total_entries(tokens)
     total = 0;
-    tokens.each do |word|
-      if @tokens[word].present?
-        total += tokens[word]
-      end
+    tokens.each_value do |word_count|
+      total += word_count
     end
     total
   end

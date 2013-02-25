@@ -28,34 +28,51 @@ class Classifier
   end
 
   def classify(text)
+    p "Analyzing phrase: #{text}"
     Document.new(text).each_word do |word|
       next if STOP_WORDS.include? word
 
-      positive_matches = @positive_corpus.token_count(word)
-      negative_matches = @negative_corpus.token_count(word)
+      p "Analyzing word: #{word}"
 
-      probability = calculate_probability(positive_matches,
+      positive_matches = @positive_corpus.token_count(word)
+      p "Postive Count: #{positive_matches}"
+      p "Postive Total: #{@positive_corpus.entry_count}"
+      negative_matches = @negative_corpus.token_count(word)
+      p "Negative Count: #{negative_matches}"
+      p "Negative Total: #{@negative_corpus.entry_count}"
+
+      probability = calculate_probability(
+        positive_matches,
         @positive_corpus.entry_count,
         negative_matches,
         @negative_corpus.entry_count
       )
+      p "Probability: #{probability}"
       record_probability(probability)
     end
 
-    final_probability = combine_probabilities
-    sentiment = compute_sentiment(final_probability)
+    p "Total Probability: #{@total_probability}"
+    p "Inverse Total Probability: #{@inverse_total_probability}"
 
-    return { sentiment: sentiment, probability: final_probability }
+    final_probability = combine_probabilities()
+    p "final_probability: #{final_probability}"
+
+    sentiment = compute_sentiment(final_probability)
+    p "sentiment: #{sentiment}"
+
+    return { text: text, sentiment: sentiment, probability: final_probability }
   end
 
   def calculate_probability positive_count, positive_total, negative_count, negative_total
     total = positive_count + negative_count
-    positive_ratio = positive_count.to_f / positive_total
-    negative_ratio = negative_count.to_f / negative_total
+    positive_ratio = positive_count.to_f / positive_total.to_f
+    p "positive_ratio: #{positive_ratio}"
+    negative_ratio = negative_count.to_f / negative_total.to_f
+    p "negative_ratio: #{negative_ratio}"
 
     probability = positive_ratio.to_f / (positive_ratio + negative_ratio)
 
-    ((UNKNOWN_WORD_STRENGTH*UNKNOWN_WORD_PROBABILITY) + (total * probability)) / (UNKNOWN_WORD_STRENGTH+total)
+    ((UNKNOWN_WORD_STRENGTH * UNKNOWN_WORD_PROBABILITY) + (total * probability)) / (UNKNOWN_WORD_STRENGTH + total)
   end
 
   def record_probability probability
@@ -69,13 +86,13 @@ class Classifier
   end
 
   def combine_probabilities
-    return 0.5 if (@totalProbability == 0)
-    return @totalProbability / (@totalProbability + @inverseTotalProbability)
+    return 0.5 if (@total_probability == 0)
+    (@total_probability / (@total_probability + @inverse_total_probability))
   end
 
   def compute_sentiment(probability)
-    return 'negative' if (probability <= (0.5 - TOLERANCE))
-    return 'positive' if (probability >= (0.5 + TOLERANCE))
-    'neutral'
+    return -1 if (probability <= (0.5 - TOLERANCE))
+    return 1 if (probability >= (0.5 + TOLERANCE))
+    0
   end
 end

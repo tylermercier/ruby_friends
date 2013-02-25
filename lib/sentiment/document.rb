@@ -1,8 +1,7 @@
 class Document
   def initialize content
-    @tokens = content.downcase.split.
-      reject { |item| item.strip.empty? }.
-      uniq
+    filtered = content.sub(/[^0-9a-zA-Z ]/, '').downcase.strip
+    @tokens = filtered.split.reject { |item| item.strip.empty? }.uniq
   end
 
   def each_word
