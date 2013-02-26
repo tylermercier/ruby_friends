@@ -9,7 +9,7 @@
       <nav>
         <ul>
           <li><a href="/">Home</a></li>
-          <% if @user %>
+          <% if logged_in? %>
             <li><a href='/sentiment'>Sentiment</a></li>
             <li><a href='/logout'>Logout</a></li>
           <% else %>
