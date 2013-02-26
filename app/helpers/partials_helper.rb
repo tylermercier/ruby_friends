@@ -3,18 +3,6 @@ module PartialsHelper
     @user.present?
   end
 
-  def render_partial(template)
-    erb template, :layout => false
-  end
-
-  def show_flash(key)
-    if session[key]
-      flash = session[key]
-      session[key] = false
-      flash
-    end
-  end
-
   def pretty_date(time)
     time.strftime("%d %b %Y")
   end
