@@ -1,9 +1,9 @@
 require 'spec_helper'
 
-describe 'Helpers' do
+describe AppHelper do
   before :each do
     @helper = Class.new do
-      include PartialsHelper
+      include AppHelper
     end.new
   end
 

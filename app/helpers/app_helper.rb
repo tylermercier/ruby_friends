@@ -1,4 +1,4 @@
-module PartialsHelper
+module AppHelper
   def logged_in?
     @user.present?
   end

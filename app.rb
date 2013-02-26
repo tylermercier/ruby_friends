@@ -36,7 +36,7 @@ class MyApp < Sinatra::Base
 
   helpers do
     include Rack::Utils
-    include PartialsHelper
+    include AppHelper
   end
 
   get '/' do
