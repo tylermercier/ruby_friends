@@ -1,7 +1,7 @@
 <ul>
 <% @tweets.each do |tweet| %>
   <li>
-    <h2><%= pretty_date(tweet[:created_at]) %> - <%= tweet[:user] %></h2>
+    <h2><%= pretty_time(tweet[:created_at]) %> - <%= tweet[:user] %></h2>
     <div><%= tweet[:text] %></div>
     <div><%= tweet[:sentiment] %></div>
   </li>
