@@ -26,7 +26,7 @@ class TokenProbability
   end
 end
 
-class Sentiment
+module Sentiment
   POSITIVE = 'positive'
   NEGATIVE = 'negative'
   NEUTRAL  = 'neutral'
