@@ -70,7 +70,11 @@ class Classifier
     negative_ratio = negative_count.to_f / negative_total.to_f
     p "negative_ratio: #{negative_ratio}"
 
-    probability = positive_ratio.to_f / (positive_ratio + negative_ratio)
+    both_ratios = positive_ratio + negative_ratio
+    probability = 0
+    if both_ratios != 0
+      probability = positive_ratio.to_f / both_ratios
+    end
 
     ((UNKNOWN_WORD_STRENGTH * UNKNOWN_WORD_PROBABILITY) + (total * probability)) / (UNKNOWN_WORD_STRENGTH + total)
   end

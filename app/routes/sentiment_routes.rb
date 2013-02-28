@@ -18,7 +18,7 @@ class MyApp < Sinatra::Base
     erb :feed
   end
 
-  get "/feed" do
+  get "/api/feed" do
     user = session[:user]
     client = user.twitter_client
     following = Following.parse(client.home_timeline)
@@ -38,18 +38,8 @@ class MyApp < Sinatra::Base
       }
     })
     client = user.twitter_client
-    timeline = client.home_timeline
-    @tweets = timeline.map do |tweet|
-      user = tweet[:user][:screen_name]
-      created_at = tweet[:created_at]
-      text = tweet[:text]
-      sentiment = Sentimentalizer.analyze(text)
-      {
-        user: user,
-        created_at: created_at,
-        text: text,
-        sentiment: sentiment
-      }
-    end
+    following = Following.parse(client.home_timeline)
+    content_type :json
+    following.to_json
   end
 end
