@@ -25,6 +25,10 @@ Start server
 
     rake server
 
+Start server (without refresh, but cached sentiment)
+
+    rackup -p 3000
+
 Start console
 
     rake console
