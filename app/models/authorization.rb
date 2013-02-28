@@ -14,7 +14,7 @@ class Authorization < ActiveRecord::Base
       authorization.update_from_hash(auth_hash)
       authorization.user
     else
-      User.build_from_hash(auth_hash)
+      User.create_from_twitter_auth(auth_hash)
     end
   end
 

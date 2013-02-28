@@ -1,7 +1,7 @@
 class MyApp < Sinatra::Base
   get "/sentiment" do
     user = session[:user]
-    client = user.twitter_client
+    client = ClientFactory.build(user)
     timeline = client.home_timeline
     @tweets = timeline.map do |tweet|
       user = tweet[:user][:screen_name]
@@ -20,7 +20,7 @@ class MyApp < Sinatra::Base
 
   get "/api/feed" do
     user = session[:user]
-    client = user.twitter_client
+    client = ClientFactory.build(user)
     following = Following.parse(client.home_timeline)
     content_type :json
     following.to_json
@@ -37,7 +37,7 @@ class MyApp < Sinatra::Base
         "secret" => auth["oauth_token_secret"]
       }
     })
-    client = user.twitter_client
+    client = ClientFactory.build(user)
     following = Following.parse(client.home_timeline)
     content_type :json
     following.to_json

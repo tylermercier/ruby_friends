@@ -9,13 +9,25 @@ describe User do
 
   it { should respond_to(:name) }
 
-  describe '#twitter_client' do
-    it 'should' do
+  describe '.create_from_twitter_auth' do
+    before(:each) do
+      twitter_auth = {
+        "uid" => "123",
+        "provider" => "twitter",
+        "info" => { "name" => "John Doe" },
+        "credentials" => {
+          "token" => "token",
+          "secret" => "secret"
+        }
+      }
+      @user = User.create_from_twitter_auth(twitter_auth)
+      @authorization = @user.authorizations.first
     end
-  end
 
-  describe '.build_from_hash' do
-    it 'should' do
-    end
+    it { @user.name.should == "John Doe" }
+    it { @authorization.uid.should == "123" }
+    it { @authorization.provider.should == "twitter" }
+    it { @authorization.token.should == "token" }
+    it { @authorization.secret.should == "secret" }
   end
 end
