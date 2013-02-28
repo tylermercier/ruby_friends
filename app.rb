@@ -7,6 +7,7 @@ require "active_record"
 require "logger"
 require "twitter"
 require "./lib/sentiment/sentimentalizer"
+require "./lib/twitter/following"
 require "./lib/form_parser"
 
 class MyApp < Sinatra::Base

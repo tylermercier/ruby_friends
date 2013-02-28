@@ -1,0 +1,2894 @@
+[
+   {
+      "created_at":"Thu Feb 28 02:54:02 +0000 2013",
+      "id":306960421217243136,
+      "id_str":"306960421217243136",
+      "text":"For those of you who don't get the reference: Dana Carvey performs \"Broccoli\" https://t.co/JbLgCX0QuD",
+      "source":"<a href=\"http://levelupstudio.com/plume\" rel=\"nofollow\">Plume\u00a0for\u00a0Android</a>",
+      "truncated":false,
+      "in_reply_to_status_id":null,
+      "in_reply_to_status_id_str":null,
+      "in_reply_to_user_id":null,
+      "in_reply_to_user_id_str":null,
+      "in_reply_to_screen_name":null,
+      "user":{
+         "id":14196181,
+         "id_str":"14196181",
+         "name":"Adam Dymitruk",
+         "screen_name":"adymitruk",
+         "location":"\u00dcT: 49.209711,-123.147183",
+         "description":"http://t.co/KrLXFAjv Architect/Coach/Dev/Agile.. Interest in Linux/.NET/Node.js/ZeroMQ/CQRS/ES/BDD/DDD/Git/Jetbrains/Android",
+         "url":"http://www.dymitruk.com/",
+         "entities":{
+            "url":{
+               "urls":[
+                  {
+                     "url":"http://www.dymitruk.com/",
+                     "expanded_url":null,
+                     "indices":[
+                        0,
+                        24
+                     ]
+                  }
+               ]
+            },
+            "description":{
+               "urls":[
+                  {
+                     "url":"http://t.co/KrLXFAjv",
+                     "expanded_url":"http://dymitruk.com",
+                     "display_url":"dymitruk.com",
+                     "indices":[
+                        0,
+                        20
+                     ]
+                  }
+               ]
+            }
+         },
+         "protected":false,
+         "followers_count":1371,
+         "friends_count":183,
+         "listed_count":91,
+         "created_at":"Sat Mar 22 07:59:11 +0000 2008",
+         "favourites_count":995,
+         "utc_offset":-28800,
+         "time_zone":"Pacific Time (US & Canada)",
+         "geo_enabled":true,
+         "verified":false,
+         "statuses_count":32089,
+         "lang":"en",
+         "contributors_enabled":false,
+         "is_translator":false,
+         "profile_background_color":"000000",
+         "profile_background_image_url":"http://a0.twimg.com/profile_background_images/259761184/Vancouver-Canucks.br.jpg",
+         "profile_background_image_url_https":"https://si0.twimg.com/profile_background_images/259761184/Vancouver-Canucks.br.jpg",
+         "profile_background_tile":false,
+         "profile_image_url":"http://a0.twimg.com/profile_images/3089425685/b2e38c3d08a44457ae0943bcdc2e4384_normal.jpeg",
+         "profile_image_url_https":"https://si0.twimg.com/profile_images/3089425685/b2e38c3d08a44457ae0943bcdc2e4384_normal.jpeg",
+         "profile_link_color":"CC3300",
+         "profile_sidebar_border_color":"FFFFFF",
+         "profile_sidebar_fill_color":"F7DA93",
+         "profile_text_color":"000000",
+         "profile_use_background_image":true,
+         "default_profile":false,
+         "default_profile_image":false,
+         "following":true,
+         "follow_request_sent":null,
+         "notifications":null
+      },
+      "geo":null,
+      "coordinates":null,
+      "place":null,
+      "contributors":null,
+      "retweet_count":0,
+      "entities":{
+         "hashtags":[
+
+         ],
+         "urls":[
+            {
+               "url":"https://t.co/JbLgCX0QuD",
+               "expanded_url":"https://www.youtube.com/watch?v=WR6y71x3tSY&feature=youtube_gdata_player",
+               "display_url":"youtube.com/watch?v=WR6y71\u2026",
+               "indices":[
+                  78,
+                  101
+               ]
+            }
+         ],
+         "user_mentions":[
+
+         ]
+      },
+      "favorited":false,
+      "retweeted":false,
+      "possibly_sensitive":false
+   },
+   {
+      "created_at":"Thu Feb 28 02:47:16 +0000 2013",
+      "id":306958721790132224,
+      "id_str":"306958721790132224",
+      "text":"Really craving ice cream tonight. Pretty sure there's no ice cream delivery services in Montreal though.",
+      "source":"<a href=\"http://www.tweetdeck.com\" rel=\"nofollow\">TweetDeck</a>",
+      "truncated":false,
+      "in_reply_to_status_id":null,
+      "in_reply_to_status_id_str":null,
+      "in_reply_to_user_id":null,
+      "in_reply_to_user_id_str":null,
+      "in_reply_to_screen_name":null,
+      "user":{
+         "id":14242912,
+         "id_str":"14242912",
+         "name":"Darcy_Lussier",
+         "screen_name":"Darcy_Lussier",
+         "location":"Winnipeg, MB, Canada",
+         "description":"Technologist, father, husband, gamer, socialite, proponent of epic hair, and fan of football teams named after birds.",
+         "url":"http://www.geekswithblogs.com/dlussier",
+         "entities":{
+            "url":{
+               "urls":[
+                  {
+                     "url":"http://www.geekswithblogs.com/dlussier",
+                     "expanded_url":null,
+                     "indices":[
+                        0,
+                        38
+                     ]
+                  }
+               ]
+            },
+            "description":{
+               "urls":[
+
+               ]
+            }
+         },
+         "protected":false,
+         "followers_count":1997,
+         "friends_count":1307,
+         "listed_count":141,
+         "created_at":"Fri Mar 28 11:20:56 +0000 2008",
+         "favourites_count":8,
+         "utc_offset":-21600,
+         "time_zone":"Central Time (US & Canada)",
+         "geo_enabled":false,
+         "verified":false,
+         "statuses_count":34972,
+         "lang":"en",
+         "contributors_enabled":false,
+         "is_translator":false,
+         "profile_background_color":"1A1B1F",
+         "profile_background_image_url":"http://a0.twimg.com/images/themes/theme9/bg.gif",
+         "profile_background_image_url_https":"https://si0.twimg.com/images/themes/theme9/bg.gif",
+         "profile_background_tile":false,
+         "profile_image_url":"http://a0.twimg.com/profile_images/1185244644/DLTwitter_normal.jpg",
+         "profile_image_url_https":"https://si0.twimg.com/profile_images/1185244644/DLTwitter_normal.jpg",
+         "profile_link_color":"2FC2EF",
+         "profile_sidebar_border_color":"181A1E",
+         "profile_sidebar_fill_color":"252429",
+         "profile_text_color":"666666",
+         "profile_use_background_image":true,
+         "default_profile":false,
+         "default_profile_image":false,
+         "following":true,
+         "follow_request_sent":null,
+         "notifications":null
+      },
+      "geo":null,
+      "coordinates":null,
+      "place":null,
+      "contributors":null,
+      "retweet_count":0,
+      "entities":{
+         "hashtags":[
+
+         ],
+         "urls":[
+
+         ],
+         "user_mentions":[
+
+         ]
+      },
+      "favorited":false,
+      "retweeted":false
+   },
+   {
+      "created_at":"Thu Feb 28 02:46:15 +0000 2013",
+      "id":306958462175309824,
+      "id_str":"306958462175309824",
+      "text":"My son doesn't approve of my rendition of Dana Carvey's \"Chopping Broccoli\"",
+      "source":"<a href=\"http://levelupstudio.com/plume\" rel=\"nofollow\">Plume\u00a0for\u00a0Android</a>",
+      "truncated":false,
+      "in_reply_to_status_id":null,
+      "in_reply_to_status_id_str":null,
+      "in_reply_to_user_id":null,
+      "in_reply_to_user_id_str":null,
+      "in_reply_to_screen_name":null,
+      "user":{
+         "id":14196181,
+         "id_str":"14196181",
+         "name":"Adam Dymitruk",
+         "screen_name":"adymitruk",
+         "location":"\u00dcT: 49.209711,-123.147183",
+         "description":"http://t.co/KrLXFAjv Architect/Coach/Dev/Agile.. Interest in Linux/.NET/Node.js/ZeroMQ/CQRS/ES/BDD/DDD/Git/Jetbrains/Android",
+         "url":"http://www.dymitruk.com/",
+         "entities":{
+            "url":{
+               "urls":[
+                  {
+                     "url":"http://www.dymitruk.com/",
+                     "expanded_url":null,
+                     "indices":[
+                        0,
+                        24
+                     ]
+                  }
+               ]
+            },
+            "description":{
+               "urls":[
+                  {
+                     "url":"http://t.co/KrLXFAjv",
+                     "expanded_url":"http://dymitruk.com",
+                     "display_url":"dymitruk.com",
+                     "indices":[
+                        0,
+                        20
+                     ]
+                  }
+               ]
+            }
+         },
+         "protected":false,
+         "followers_count":1371,
+         "friends_count":183,
+         "listed_count":91,
+         "created_at":"Sat Mar 22 07:59:11 +0000 2008",
+         "favourites_count":995,
+         "utc_offset":-28800,
+         "time_zone":"Pacific Time (US & Canada)",
+         "geo_enabled":true,
+         "verified":false,
+         "statuses_count":32089,
+         "lang":"en",
+         "contributors_enabled":false,
+         "is_translator":false,
+         "profile_background_color":"000000",
+         "profile_background_image_url":"http://a0.twimg.com/profile_background_images/259761184/Vancouver-Canucks.br.jpg",
+         "profile_background_image_url_https":"https://si0.twimg.com/profile_background_images/259761184/Vancouver-Canucks.br.jpg",
+         "profile_background_tile":false,
+         "profile_image_url":"http://a0.twimg.com/profile_images/3089425685/b2e38c3d08a44457ae0943bcdc2e4384_normal.jpeg",
+         "profile_image_url_https":"https://si0.twimg.com/profile_images/3089425685/b2e38c3d08a44457ae0943bcdc2e4384_normal.jpeg",
+         "profile_link_color":"CC3300",
+         "profile_sidebar_border_color":"FFFFFF",
+         "profile_sidebar_fill_color":"F7DA93",
+         "profile_text_color":"000000",
+         "profile_use_background_image":true,
+         "default_profile":false,
+         "default_profile_image":false,
+         "following":true,
+         "follow_request_sent":null,
+         "notifications":null
+      },
+      "geo":null,
+      "coordinates":null,
+      "place":null,
+      "contributors":null,
+      "retweet_count":0,
+      "entities":{
+         "hashtags":[
+
+         ],
+         "urls":[
+
+         ],
+         "user_mentions":[
+
+         ]
+      },
+      "favorited":false,
+      "retweeted":false
+   },
+   {
+      "created_at":"Thu Feb 28 02:30:44 +0000 2013",
+      "id":306954559778091008,
+      "id_str":"306954559778091008",
+      "text":"RT @GeekandSundry: Did you miss our announcement of #TableTopDay today? Watch it here: http://t.co/ZOiI1JpCib",
+      "source":"<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "truncated":false,
+      "in_reply_to_status_id":null,
+      "in_reply_to_status_id_str":null,
+      "in_reply_to_user_id":null,
+      "in_reply_to_user_id_str":null,
+      "in_reply_to_screen_name":null,
+      "user":{
+         "id":7861312,
+         "id_str":"7861312",
+         "name":"Felicia Day",
+         "screen_name":"feliciaday",
+         "location":"Los Angeles, CA",
+         "description":"Actress, New Media Geek, Gamer, Misanthrope. I like to keep my Tweets real and not waste people's time.",
+         "url":"http://www.feliciaday.com",
+         "entities":{
+            "url":{
+               "urls":[
+                  {
+                     "url":"http://www.feliciaday.com",
+                     "expanded_url":null,
+                     "indices":[
+                        0,
+                        25
+                     ]
+                  }
+               ]
+            },
+            "description":{
+               "urls":[
+
+               ]
+            }
+         },
+         "protected":false,
+         "followers_count":2022874,
+         "friends_count":254,
+         "listed_count":3,
+         "created_at":"Tue Jul 31 22:58:08 +0000 2007",
+         "favourites_count":2441,
+         "utc_offset":-28800,
+         "time_zone":"Pacific Time (US & Canada)",
+         "geo_enabled":false,
+         "verified":true,
+         "statuses_count":18652,
+         "lang":"en",
+         "contributors_enabled":false,
+         "is_translator":false,
+         "profile_background_color":"FFFFFF",
+         "profile_background_image_url":"http://a0.twimg.com/profile_background_images/523698546/Felicia_Twitter_bg.jpg",
+         "profile_background_image_url_https":"https://si0.twimg.com/profile_background_images/523698546/Felicia_Twitter_bg.jpg",
+         "profile_background_tile":false,
+         "profile_image_url":"http://a0.twimg.com/profile_images/1779599578/image1327468347_normal.png",
+         "profile_image_url_https":"https://si0.twimg.com/profile_images/1779599578/image1327468347_normal.png",
+         "profile_banner_url":"https://si0.twimg.com/brand_banners/feliciaday/1334548378/live",
+         "profile_link_color":"363636",
+         "profile_sidebar_border_color":"48002A",
+         "profile_sidebar_fill_color":"F0DFDF",
+         "profile_text_color":"3D1957",
+         "profile_use_background_image":true,
+         "default_profile":false,
+         "default_profile_image":false,
+         "following":true,
+         "follow_request_sent":null,
+         "notifications":null
+      },
+      "geo":null,
+      "coordinates":null,
+      "place":null,
+      "contributors":null,
+      "retweeted_status":{
+         "created_at":"Thu Feb 28 01:40:05 +0000 2013",
+         "id":306941812793298944,
+         "id_str":"306941812793298944",
+         "text":"Did you miss our announcement of #TableTopDay today? Watch it here: http://t.co/ZOiI1JpCib",
+         "source":"web",
+         "truncated":false,
+         "in_reply_to_status_id":null,
+         "in_reply_to_status_id_str":null,
+         "in_reply_to_user_id":null,
+         "in_reply_to_user_id_str":null,
+         "in_reply_to_screen_name":null,
+         "user":{
+            "id":362286999,
+            "id_str":"362286999",
+            "name":"Geek & Sundry",
+            "screen_name":"GeekandSundry",
+            "location":"Los Angeles",
+            "description":"Eccentricities for your Entertainment",
+            "url":"http://geekandsundry.com",
+            "entities":{
+               "url":{
+                  "urls":[
+                     {
+                        "url":"http://geekandsundry.com",
+                        "expanded_url":null,
+                        "indices":[
+                           0,
+                           24
+                        ]
+                     }
+                  ]
+               },
+               "description":{
+                  "urls":[
+
+                  ]
+               }
+            },
+            "protected":false,
+            "followers_count":57448,
+            "friends_count":209,
+            "listed_count":1255,
+            "created_at":"Fri Aug 26 04:23:17 +0000 2011",
+            "favourites_count":331,
+            "utc_offset":null,
+            "time_zone":null,
+            "geo_enabled":true,
+            "verified":false,
+            "statuses_count":5126,
+            "lang":"en",
+            "contributors_enabled":false,
+            "is_translator":false,
+            "profile_background_color":"4A7B7F",
+            "profile_background_image_url":"http://a0.twimg.com/profile_background_images/414503198/gs-pattern-tile.jpg",
+            "profile_background_image_url_https":"https://si0.twimg.com/profile_background_images/414503198/gs-pattern-tile.jpg",
+            "profile_background_tile":true,
+            "profile_image_url":"http://a0.twimg.com/profile_images/1797302380/gs-logo-green-500x500_normal.jpg",
+            "profile_image_url_https":"https://si0.twimg.com/profile_images/1797302380/gs-logo-green-500x500_normal.jpg",
+            "profile_banner_url":"https://si0.twimg.com/profile_banners/362286999/1350513837",
+            "profile_link_color":"058AAB",
+            "profile_sidebar_border_color":"FFFFFF",
+            "profile_sidebar_fill_color":"61EB2A",
+            "profile_text_color":"2B2725",
+            "profile_use_background_image":true,
+            "default_profile":false,
+            "default_profile_image":false,
+            "following":null,
+            "follow_request_sent":null,
+            "notifications":null
+         },
+         "geo":null,
+         "coordinates":null,
+         "place":null,
+         "contributors":null,
+         "retweet_count":39,
+         "entities":{
+            "hashtags":[
+               {
+                  "text":"TableTopDay",
+                  "indices":[
+                     33,
+                     45
+                  ]
+               }
+            ],
+            "urls":[
+               {
+                  "url":"http://t.co/ZOiI1JpCib",
+                  "expanded_url":"http://www.youtube.com/watch?v=x3m0PIWqkfQ",
+                  "display_url":"youtube.com/watch?v=x3m0PI\u2026",
+                  "indices":[
+                     68,
+                     90
+                  ]
+               }
+            ],
+            "user_mentions":[
+
+            ]
+         },
+         "favorited":false,
+         "retweeted":false,
+         "possibly_sensitive":false
+      },
+      "retweet_count":39,
+      "entities":{
+         "hashtags":[
+            {
+               "text":"TableTopDay",
+               "indices":[
+                  52,
+                  64
+               ]
+            }
+         ],
+         "urls":[
+            {
+               "url":"http://t.co/ZOiI1JpCib",
+               "expanded_url":"http://www.youtube.com/watch?v=x3m0PIWqkfQ",
+               "display_url":"youtube.com/watch?v=x3m0PI\u2026",
+               "indices":[
+                  87,
+                  109
+               ]
+            }
+         ],
+         "user_mentions":[
+            {
+               "screen_name":"GeekandSundry",
+               "name":"Geek & Sundry",
+               "id":362286999,
+               "id_str":"362286999",
+               "indices":[
+                  3,
+                  17
+               ]
+            }
+         ]
+      },
+      "favorited":false,
+      "retweeted":false,
+      "possibly_sensitive":false
+   },
+   {
+      "created_at":"Thu Feb 28 02:24:07 +0000 2013",
+      "id":306952892852625408,
+      "id_str":"306952892852625408",
+      "text":"Only Yahoos work in a office!  http://t.co/O3Wkas0oIs",
+      "source":"<a href=\"http://bufferapp.com\" rel=\"nofollow\">Buffer</a>",
+      "truncated":false,
+      "in_reply_to_status_id":null,
+      "in_reply_to_status_id_str":null,
+      "in_reply_to_user_id":null,
+      "in_reply_to_user_id_str":null,
+      "in_reply_to_screen_name":null,
+      "user":{
+         "id":16063910,
+         "id_str":"16063910",
+         "name":"Adron Hall",
+         "screen_name":"adron",
+         "location":"Portland, OR",
+         "description":"Cloud computing, software dev, heavy metal, transit, economics, livability, beautiful things, and adrenaline junkie. All here is mine, not anyone employing me.",
+         "url":"http://compositecode.com",
+         "entities":{
+            "url":{
+               "urls":[
+                  {
+                     "url":"http://compositecode.com",
+                     "expanded_url":null,
+                     "indices":[
+                        0,
+                        24
+                     ]
+                  }
+               ]
+            },
+            "description":{
+               "urls":[
+
+               ]
+            }
+         },
+         "protected":false,
+         "followers_count":4424,
+         "friends_count":342,
+         "listed_count":246,
+         "created_at":"Sun Aug 31 05:56:04 +0000 2008",
+         "favourites_count":313,
+         "utc_offset":-28800,
+         "time_zone":"Pacific Time (US & Canada)",
+         "geo_enabled":true,
+         "verified":false,
+         "statuses_count":30188,
+         "lang":"en",
+         "contributors_enabled":false,
+         "is_translator":false,
+         "profile_background_color":"022330",
+         "profile_background_image_url":"http://a0.twimg.com/images/themes/theme15/bg.png",
+         "profile_background_image_url_https":"https://si0.twimg.com/images/themes/theme15/bg.png",
+         "profile_background_tile":false,
+         "profile_image_url":"http://a0.twimg.com/profile_images/2941179636/d70e552f1cf72957c0f7bfb04e1d2b3c_normal.jpeg",
+         "profile_image_url_https":"https://si0.twimg.com/profile_images/2941179636/d70e552f1cf72957c0f7bfb04e1d2b3c_normal.jpeg",
+         "profile_banner_url":"https://si0.twimg.com/profile_banners/16063910/1353653412",
+         "profile_link_color":"0084B4",
+         "profile_sidebar_border_color":"A8C7F7",
+         "profile_sidebar_fill_color":"C0DFEC",
+         "profile_text_color":"333333",
+         "profile_use_background_image":true,
+         "default_profile":false,
+         "default_profile_image":false,
+         "following":true,
+         "follow_request_sent":null,
+         "notifications":null
+      },
+      "geo":null,
+      "coordinates":null,
+      "place":null,
+      "contributors":null,
+      "retweet_count":4,
+      "entities":{
+         "hashtags":[
+
+         ],
+         "urls":[
+            {
+               "url":"http://t.co/O3Wkas0oIs",
+               "expanded_url":"http://bit.ly/15RL21X",
+               "display_url":"bit.ly/15RL21X",
+               "indices":[
+                  31,
+                  53
+               ]
+            }
+         ],
+         "user_mentions":[
+
+         ]
+      },
+      "favorited":false,
+      "retweeted":false,
+      "possibly_sensitive":false
+   },
+   {
+      "created_at":"Thu Feb 28 02:05:13 +0000 2013",
+      "id":306948136344100866,
+      "id_str":"306948136344100866",
+      "text":"Seattle I am inside you.  You are not warm. #brr",
+      "source":"<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "truncated":false,
+      "in_reply_to_status_id":null,
+      "in_reply_to_status_id_str":null,
+      "in_reply_to_user_id":null,
+      "in_reply_to_user_id_str":null,
+      "in_reply_to_screen_name":null,
+      "user":{
+         "id":7861312,
+         "id_str":"7861312",
+         "name":"Felicia Day",
+         "screen_name":"feliciaday",
+         "location":"Los Angeles, CA",
+         "description":"Actress, New Media Geek, Gamer, Misanthrope. I like to keep my Tweets real and not waste people's time.",
+         "url":"http://www.feliciaday.com",
+         "entities":{
+            "url":{
+               "urls":[
+                  {
+                     "url":"http://www.feliciaday.com",
+                     "expanded_url":null,
+                     "indices":[
+                        0,
+                        25
+                     ]
+                  }
+               ]
+            },
+            "description":{
+               "urls":[
+
+               ]
+            }
+         },
+         "protected":false,
+         "followers_count":2022874,
+         "friends_count":254,
+         "listed_count":3,
+         "created_at":"Tue Jul 31 22:58:08 +0000 2007",
+         "favourites_count":2441,
+         "utc_offset":-28800,
+         "time_zone":"Pacific Time (US & Canada)",
+         "geo_enabled":false,
+         "verified":true,
+         "statuses_count":18652,
+         "lang":"en",
+         "contributors_enabled":false,
+         "is_translator":false,
+         "profile_background_color":"FFFFFF",
+         "profile_background_image_url":"http://a0.twimg.com/profile_background_images/523698546/Felicia_Twitter_bg.jpg",
+         "profile_background_image_url_https":"https://si0.twimg.com/profile_background_images/523698546/Felicia_Twitter_bg.jpg",
+         "profile_background_tile":false,
+         "profile_image_url":"http://a0.twimg.com/profile_images/1779599578/image1327468347_normal.png",
+         "profile_image_url_https":"https://si0.twimg.com/profile_images/1779599578/image1327468347_normal.png",
+         "profile_banner_url":"https://si0.twimg.com/brand_banners/feliciaday/1334548378/live",
+         "profile_link_color":"363636",
+         "profile_sidebar_border_color":"48002A",
+         "profile_sidebar_fill_color":"F0DFDF",
+         "profile_text_color":"3D1957",
+         "profile_use_background_image":true,
+         "default_profile":false,
+         "default_profile_image":false,
+         "following":true,
+         "follow_request_sent":null,
+         "notifications":null
+      },
+      "geo":null,
+      "coordinates":null,
+      "place":null,
+      "contributors":null,
+      "retweet_count":57,
+      "entities":{
+         "hashtags":[
+            {
+               "text":"brr",
+               "indices":[
+                  44,
+                  48
+               ]
+            }
+         ],
+         "urls":[
+
+         ],
+         "user_mentions":[
+
+         ]
+      },
+      "favorited":false,
+      "retweeted":false
+   },
+   {
+      "created_at":"Thu Feb 28 02:04:29 +0000 2013",
+      "id":306947951991877633,
+      "id_str":"306947951991877633",
+      "text":"Seeing David Suzuki and Jeff Rubin talk about sustainability at @wordfest. #yyc",
+      "source":"<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "truncated":false,
+      "in_reply_to_status_id":null,
+      "in_reply_to_status_id_str":null,
+      "in_reply_to_user_id":null,
+      "in_reply_to_user_id_str":null,
+      "in_reply_to_screen_name":null,
+      "user":{
+         "id":71935343,
+         "id_str":"71935343",
+         "name":"Jennifer Hogan",
+         "screen_name":"jenniferhogan",
+         "location":"Calgary, Alberta",
+         "description":"I'm a User Experience designer at @GettyImages. I live in Calgary, AB, try to read a book a week and ride my bicycle regularly.",
+         "url":"http://jenniferhogan.ca",
+         "entities":{
+            "url":{
+               "urls":[
+                  {
+                     "url":"http://jenniferhogan.ca",
+                     "expanded_url":null,
+                     "indices":[
+                        0,
+                        23
+                     ]
+                  }
+               ]
+            },
+            "description":{
+               "urls":[
+
+               ]
+            }
+         },
+         "protected":false,
+         "followers_count":450,
+         "friends_count":740,
+         "listed_count":26,
+         "created_at":"Sun Sep 06 01:20:40 +0000 2009",
+         "favourites_count":51,
+         "utc_offset":-25200,
+         "time_zone":"Mountain Time (US & Canada)",
+         "geo_enabled":true,
+         "verified":false,
+         "statuses_count":3675,
+         "lang":"en",
+         "contributors_enabled":false,
+         "is_translator":false,
+         "profile_background_color":"FFFFFF",
+         "profile_background_image_url":"http://a0.twimg.com/profile_background_images/345477694/Grid.jpg",
+         "profile_background_image_url_https":"https://si0.twimg.com/profile_background_images/345477694/Grid.jpg",
+         "profile_background_tile":true,
+         "profile_image_url":"http://a0.twimg.com/profile_images/1539314169/Me_normal.jpg",
+         "profile_image_url_https":"https://si0.twimg.com/profile_images/1539314169/Me_normal.jpg",
+         "profile_link_color":"6E6E6E",
+         "profile_sidebar_border_color":"FFFFFF",
+         "profile_sidebar_fill_color":"FFFFFF",
+         "profile_text_color":"6E6E6E",
+         "profile_use_background_image":false,
+         "default_profile":false,
+         "default_profile_image":false,
+         "following":true,
+         "follow_request_sent":null,
+         "notifications":null
+      },
+      "geo":null,
+      "coordinates":null,
+      "place":null,
+      "contributors":null,
+      "retweet_count":0,
+      "entities":{
+         "hashtags":[
+            {
+               "text":"yyc",
+               "indices":[
+                  75,
+                  79
+               ]
+            }
+         ],
+         "urls":[
+
+         ],
+         "user_mentions":[
+
+         ]
+      },
+      "favorited":false,
+      "retweeted":false
+   },
+   {
+      "created_at":"Thu Feb 28 02:00:41 +0000 2013",
+      "id":306946996479082496,
+      "id_str":"306946996479082496",
+      "text":"RT @frankbeddor: @NathanFillion and I are teaming up for @kidsneedtoread through my Kickstarter and Comic Cons! Read here: http://t.co/5 ...",
+      "source":"<a href=\"http://tapbots.com/tweetbot\" rel=\"nofollow\">Tweetbot for iOS</a>",
+      "truncated":false,
+      "in_reply_to_status_id":null,
+      "in_reply_to_status_id_str":null,
+      "in_reply_to_user_id":null,
+      "in_reply_to_user_id_str":null,
+      "in_reply_to_screen_name":null,
+      "user":{
+         "id":31353077,
+         "id_str":"31353077",
+         "name":"Nathan Fillion",
+         "screen_name":"NathanFillion",
+         "location":"Los Angeles",
+         "description":"It costs nothing to say something kind. Even less to shut up altogether.",
+         "url":null,
+         "entities":{
+            "description":{
+               "urls":[
+
+               ]
+            }
+         },
+         "protected":false,
+         "followers_count":1656193,
+         "friends_count":373,
+         "listed_count":33314,
+         "created_at":"Wed Apr 15 05:57:40 +0000 2009",
+         "favourites_count":109,
+         "utc_offset":-28800,
+         "time_zone":"Pacific Time (US & Canada)",
+         "geo_enabled":false,
+         "verified":true,
+         "statuses_count":4216,
+         "lang":"en",
+         "contributors_enabled":false,
+         "is_translator":false,
+         "profile_background_color":"131516",
+         "profile_background_image_url":"http://a0.twimg.com/images/themes/theme14/bg.gif",
+         "profile_background_image_url_https":"https://si0.twimg.com/images/themes/theme14/bg.gif",
+         "profile_background_tile":true,
+         "profile_image_url":"http://a0.twimg.com/profile_images/2508970611/FF34C5BB-11BB-408E-8D71-B76E618BFDBC_normal",
+         "profile_image_url_https":"https://si0.twimg.com/profile_images/2508970611/FF34C5BB-11BB-408E-8D71-B76E618BFDBC_normal",
+         "profile_link_color":"009999",
+         "profile_sidebar_border_color":"EEEEEE",
+         "profile_sidebar_fill_color":"EFEFEF",
+         "profile_text_color":"333333",
+         "profile_use_background_image":true,
+         "default_profile":false,
+         "default_profile_image":false,
+         "following":true,
+         "follow_request_sent":null,
+         "notifications":null
+      },
+      "geo":null,
+      "coordinates":null,
+      "place":null,
+      "contributors":null,
+      "retweeted_status":{
+         "created_at":"Thu Feb 28 00:21:00 +0000 2013",
+         "id":306921911231844352,
+         "id_str":"306921911231844352",
+         "text":"@NathanFillion and I are teaming up for @kidsneedtoread through my Kickstarter and Comic Cons! Read here: http://t.co/52N8ZOU2rk",
+         "source":"web",
+         "truncated":false,
+         "in_reply_to_status_id":null,
+         "in_reply_to_status_id_str":null,
+         "in_reply_to_user_id":31353077,
+         "in_reply_to_user_id_str":"31353077",
+         "in_reply_to_screen_name":"NathanFillion",
+         "user":{
+            "id":16320526,
+            "id_str":"16320526",
+            "name":"Frank Beddor",
+            "screen_name":"frankbeddor",
+            "location":"Los Angeles, CA",
+            "description":"Movie producer (The Juliet, There's Something about Mary, Wicked), Co-Founder of Automatic Games, and author of the Looking Glass Wars and Hatter M book series",
+            "url":"http://www.cardsoldierwars.com",
+            "entities":{
+               "url":{
+                  "urls":[
+                     {
+                        "url":"http://www.cardsoldierwars.com",
+                        "expanded_url":null,
+                        "indices":[
+                           0,
+                           30
+                        ]
+                     }
+                  ]
+               },
+               "description":{
+                  "urls":[
+
+                  ]
+               }
+            },
+            "protected":false,
+            "followers_count":701,
+            "friends_count":70,
+            "listed_count":43,
+            "created_at":"Wed Sep 17 00:27:42 +0000 2008",
+            "favourites_count":2,
+            "utc_offset":-28800,
+            "time_zone":"Pacific Time (US & Canada)",
+            "geo_enabled":true,
+            "verified":false,
+            "statuses_count":255,
+            "lang":"en",
+            "contributors_enabled":false,
+            "is_translator":false,
+            "profile_background_color":"131516",
+            "profile_background_image_url":"http://a0.twimg.com/profile_background_images/47201880/hatter_cover_final.jpg",
+            "profile_background_image_url_https":"https://si0.twimg.com/profile_background_images/47201880/hatter_cover_final.jpg",
+            "profile_background_tile":true,
+            "profile_image_url":"http://a0.twimg.com/profile_images/484793290/Frank-Photo2_09_normal.jpg",
+            "profile_image_url_https":"https://si0.twimg.com/profile_images/484793290/Frank-Photo2_09_normal.jpg",
+            "profile_link_color":"009999",
+            "profile_sidebar_border_color":"EEEEEE",
+            "profile_sidebar_fill_color":"EFEFEF",
+            "profile_text_color":"333333",
+            "profile_use_background_image":true,
+            "default_profile":false,
+            "default_profile_image":false,
+            "following":null,
+            "follow_request_sent":null,
+            "notifications":null
+         },
+         "geo":null,
+         "coordinates":null,
+         "place":null,
+         "contributors":null,
+         "retweet_count":75,
+         "entities":{
+            "hashtags":[
+
+            ],
+            "urls":[
+               {
+                  "url":"http://t.co/52N8ZOU2rk",
+                  "expanded_url":"http://tinyurl.com/bqnmykk",
+                  "display_url":"tinyurl.com/bqnmykk",
+                  "indices":[
+                     106,
+                     128
+                  ]
+               }
+            ],
+            "user_mentions":[
+               {
+                  "screen_name":"NathanFillion",
+                  "name":"Nathan Fillion",
+                  "id":31353077,
+                  "id_str":"31353077",
+                  "indices":[
+                     0,
+                     14
+                  ]
+               },
+               {
+                  "screen_name":"kidsneedtoread",
+                  "name":"kidsneedtoread",
+                  "id":15809966,
+                  "id_str":"15809966",
+                  "indices":[
+                     40,
+                     55
+                  ]
+               }
+            ]
+         },
+         "favorited":false,
+         "retweeted":false,
+         "possibly_sensitive":false
+      },
+      "retweet_count":75,
+      "entities":{
+         "hashtags":[
+
+         ],
+         "urls":[
+
+         ],
+         "user_mentions":[
+            {
+               "screen_name":"frankbeddor",
+               "name":"Frank Beddor",
+               "id":16320526,
+               "id_str":"16320526",
+               "indices":[
+                  3,
+                  15
+               ]
+            },
+            {
+               "screen_name":"NathanFillion",
+               "name":"Nathan Fillion",
+               "id":31353077,
+               "id_str":"31353077",
+               "indices":[
+                  17,
+                  31
+               ]
+            },
+            {
+               "screen_name":"kidsneedtoread",
+               "name":"kidsneedtoread",
+               "id":15809966,
+               "id_str":"15809966",
+               "indices":[
+                  57,
+                  72
+               ]
+            }
+         ]
+      },
+      "favorited":false,
+      "retweeted":false
+   },
+   {
+      "created_at":"Thu Feb 28 01:57:47 +0000 2013",
+      "id":306946268675055616,
+      "id_str":"306946268675055616",
+      "text":"RT @ackenpacken: Had the pleasure of \u00abde-enterprising\u00bb someone stuck in the best practises of  MS",
+      "source":"<a href=\"http://levelupstudio.com/plume\" rel=\"nofollow\">Plume\u00a0for\u00a0Android</a>",
+      "truncated":false,
+      "in_reply_to_status_id":null,
+      "in_reply_to_status_id_str":null,
+      "in_reply_to_user_id":null,
+      "in_reply_to_user_id_str":null,
+      "in_reply_to_screen_name":null,
+      "user":{
+         "id":14196181,
+         "id_str":"14196181",
+         "name":"Adam Dymitruk",
+         "screen_name":"adymitruk",
+         "location":"\u00dcT: 49.209711,-123.147183",
+         "description":"http://t.co/KrLXFAjv Architect/Coach/Dev/Agile.. Interest in Linux/.NET/Node.js/ZeroMQ/CQRS/ES/BDD/DDD/Git/Jetbrains/Android",
+         "url":"http://www.dymitruk.com/",
+         "entities":{
+            "url":{
+               "urls":[
+                  {
+                     "url":"http://www.dymitruk.com/",
+                     "expanded_url":null,
+                     "indices":[
+                        0,
+                        24
+                     ]
+                  }
+               ]
+            },
+            "description":{
+               "urls":[
+                  {
+                     "url":"http://t.co/KrLXFAjv",
+                     "expanded_url":"http://dymitruk.com",
+                     "display_url":"dymitruk.com",
+                     "indices":[
+                        0,
+                        20
+                     ]
+                  }
+               ]
+            }
+         },
+         "protected":false,
+         "followers_count":1371,
+         "friends_count":183,
+         "listed_count":91,
+         "created_at":"Sat Mar 22 07:59:11 +0000 2008",
+         "favourites_count":995,
+         "utc_offset":-28800,
+         "time_zone":"Pacific Time (US & Canada)",
+         "geo_enabled":true,
+         "verified":false,
+         "statuses_count":32089,
+         "lang":"en",
+         "contributors_enabled":false,
+         "is_translator":false,
+         "profile_background_color":"000000",
+         "profile_background_image_url":"http://a0.twimg.com/profile_background_images/259761184/Vancouver-Canucks.br.jpg",
+         "profile_background_image_url_https":"https://si0.twimg.com/profile_background_images/259761184/Vancouver-Canucks.br.jpg",
+         "profile_background_tile":false,
+         "profile_image_url":"http://a0.twimg.com/profile_images/3089425685/b2e38c3d08a44457ae0943bcdc2e4384_normal.jpeg",
+         "profile_image_url_https":"https://si0.twimg.com/profile_images/3089425685/b2e38c3d08a44457ae0943bcdc2e4384_normal.jpeg",
+         "profile_link_color":"CC3300",
+         "profile_sidebar_border_color":"FFFFFF",
+         "profile_sidebar_fill_color":"F7DA93",
+         "profile_text_color":"000000",
+         "profile_use_background_image":true,
+         "default_profile":false,
+         "default_profile_image":false,
+         "following":true,
+         "follow_request_sent":null,
+         "notifications":null
+      },
+      "geo":null,
+      "coordinates":null,
+      "place":null,
+      "contributors":null,
+      "retweeted_status":{
+         "created_at":"Wed Feb 27 23:13:24 +0000 2013",
+         "id":306904897264168960,
+         "id_str":"306904897264168960",
+         "text":"Had the pleasure of \u00abde-enterprising\u00bb someone stuck in the best practises of  MS",
+         "source":"<a href=\"http://www.tweetcaster.com\" rel=\"nofollow\">TweetCaster for Android</a>",
+         "truncated":false,
+         "in_reply_to_status_id":null,
+         "in_reply_to_status_id_str":null,
+         "in_reply_to_user_id":null,
+         "in_reply_to_user_id_str":null,
+         "in_reply_to_screen_name":null,
+         "user":{
+            "id":24674153,
+            "id_str":"24674153",
+            "name":"Svein A. Ackenhausen",
+            "screen_name":"ackenpacken",
+            "location":"Norway",
+            "description":"The Norwegian guy hacking away on AutoTest.Net, ContinuousTests and OpenIDE (and whatever seems interesting) while trying to run a business.",
+            "url":"http://ackenpacken.blogspot.com/",
+            "entities":{
+               "url":{
+                  "urls":[
+                     {
+                        "url":"http://ackenpacken.blogspot.com/",
+                        "expanded_url":null,
+                        "indices":[
+                           0,
+                           32
+                        ]
+                     }
+                  ]
+               },
+               "description":{
+                  "urls":[
+
+                  ]
+               }
+            },
+            "protected":false,
+            "followers_count":561,
+            "friends_count":299,
+            "listed_count":20,
+            "created_at":"Mon Mar 16 10:34:06 +0000 2009",
+            "favourites_count":10,
+            "utc_offset":3600,
+            "time_zone":"Stockholm",
+            "geo_enabled":true,
+            "verified":false,
+            "statuses_count":5331,
+            "lang":"en",
+            "contributors_enabled":false,
+            "is_translator":false,
+            "profile_background_color":"C0DEED",
+            "profile_background_image_url":"http://a0.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https":"https://si0.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile":false,
+            "profile_image_url":"http://a0.twimg.com/profile_images/861920498/meg2_normal.jpg",
+            "profile_image_url_https":"https://si0.twimg.com/profile_images/861920498/meg2_normal.jpg",
+            "profile_link_color":"0084B4",
+            "profile_sidebar_border_color":"C0DEED",
+            "profile_sidebar_fill_color":"DDEEF6",
+            "profile_text_color":"333333",
+            "profile_use_background_image":true,
+            "default_profile":true,
+            "default_profile_image":false,
+            "following":null,
+            "follow_request_sent":null,
+            "notifications":null
+         },
+         "geo":null,
+         "coordinates":null,
+         "place":null,
+         "contributors":null,
+         "retweet_count":1,
+         "entities":{
+            "hashtags":[
+
+            ],
+            "urls":[
+
+            ],
+            "user_mentions":[
+
+            ]
+         },
+         "favorited":false,
+         "retweeted":false
+      },
+      "retweet_count":1,
+      "entities":{
+         "hashtags":[
+
+         ],
+         "urls":[
+
+         ],
+         "user_mentions":[
+            {
+               "screen_name":"ackenpacken",
+               "name":"Svein A. Ackenhausen",
+               "id":24674153,
+               "id_str":"24674153",
+               "indices":[
+                  3,
+                  15
+               ]
+            }
+         ]
+      },
+      "favorited":false,
+      "retweeted":false
+   },
+   {
+      "created_at":"Thu Feb 28 01:54:31 +0000 2013",
+      "id":306945445849075712,
+      "id_str":"306945445849075712",
+      "text":"RT @VeryShortStory: The parents sat at the tiny desks. The children instructed them in the lost art of fun and transformed them back int ...",
+      "source":"<a href=\"http://levelupstudio.com/plume\" rel=\"nofollow\">Plume\u00a0for\u00a0Android</a>",
+      "truncated":false,
+      "in_reply_to_status_id":null,
+      "in_reply_to_status_id_str":null,
+      "in_reply_to_user_id":null,
+      "in_reply_to_user_id_str":null,
+      "in_reply_to_screen_name":null,
+      "user":{
+         "id":14196181,
+         "id_str":"14196181",
+         "name":"Adam Dymitruk",
+         "screen_name":"adymitruk",
+         "location":"\u00dcT: 49.209711,-123.147183",
+         "description":"http://t.co/KrLXFAjv Architect/Coach/Dev/Agile.. Interest in Linux/.NET/Node.js/ZeroMQ/CQRS/ES/BDD/DDD/Git/Jetbrains/Android",
+         "url":"http://www.dymitruk.com/",
+         "entities":{
+            "url":{
+               "urls":[
+                  {
+                     "url":"http://www.dymitruk.com/",
+                     "expanded_url":null,
+                     "indices":[
+                        0,
+                        24
+                     ]
+                  }
+               ]
+            },
+            "description":{
+               "urls":[
+                  {
+                     "url":"http://t.co/KrLXFAjv",
+                     "expanded_url":"http://dymitruk.com",
+                     "display_url":"dymitruk.com",
+                     "indices":[
+                        0,
+                        20
+                     ]
+                  }
+               ]
+            }
+         },
+         "protected":false,
+         "followers_count":1371,
+         "friends_count":183,
+         "listed_count":91,
+         "created_at":"Sat Mar 22 07:59:11 +0000 2008",
+         "favourites_count":995,
+         "utc_offset":-28800,
+         "time_zone":"Pacific Time (US & Canada)",
+         "geo_enabled":true,
+         "verified":false,
+         "statuses_count":32089,
+         "lang":"en",
+         "contributors_enabled":false,
+         "is_translator":false,
+         "profile_background_color":"000000",
+         "profile_background_image_url":"http://a0.twimg.com/profile_background_images/259761184/Vancouver-Canucks.br.jpg",
+         "profile_background_image_url_https":"https://si0.twimg.com/profile_background_images/259761184/Vancouver-Canucks.br.jpg",
+         "profile_background_tile":false,
+         "profile_image_url":"http://a0.twimg.com/profile_images/3089425685/b2e38c3d08a44457ae0943bcdc2e4384_normal.jpeg",
+         "profile_image_url_https":"https://si0.twimg.com/profile_images/3089425685/b2e38c3d08a44457ae0943bcdc2e4384_normal.jpeg",
+         "profile_link_color":"CC3300",
+         "profile_sidebar_border_color":"FFFFFF",
+         "profile_sidebar_fill_color":"F7DA93",
+         "profile_text_color":"000000",
+         "profile_use_background_image":true,
+         "default_profile":false,
+         "default_profile_image":false,
+         "following":true,
+         "follow_request_sent":null,
+         "notifications":null
+      },
+      "geo":null,
+      "coordinates":null,
+      "place":null,
+      "contributors":null,
+      "retweeted_status":{
+         "created_at":"Wed Feb 27 22:00:48 +0000 2013",
+         "id":306886627865792513,
+         "id_str":"306886627865792513",
+         "text":"The parents sat at the tiny desks. The children instructed them in the lost art of fun and transformed them back into human beings.",
+         "source":"<a href=\"http://bufferapp.com\" rel=\"nofollow\">Buffer</a>",
+         "truncated":false,
+         "in_reply_to_status_id":null,
+         "in_reply_to_status_id_str":null,
+         "in_reply_to_user_id":null,
+         "in_reply_to_user_id_str":null,
+         "in_reply_to_screen_name":null,
+         "user":{
+            "id":31986700,
+            "id_str":"31986700",
+            "name":"Very Short Story",
+            "screen_name":"VeryShortStory",
+            "location":"Austin, Tx",
+            "description":"Twitter sized fiction. Stories by @sean_hill. Send me a noun and I'll use the ones that inspire me in a story. \nGet the book http://t.co/FZePH6Eg",
+            "url":"http://www.very-short-story.com",
+            "entities":{
+               "url":{
+                  "urls":[
+                     {
+                        "url":"http://www.very-short-story.com",
+                        "expanded_url":null,
+                        "indices":[
+                           0,
+                           31
+                        ]
+                     }
+                  ]
+               },
+               "description":{
+                  "urls":[
+                     {
+                        "url":"http://t.co/FZePH6Eg",
+                        "expanded_url":"http://amzn.to/VeryShortStories",
+                        "display_url":"amzn.to/VeryShortStori\u2026",
+                        "indices":[
+                           125,
+                           145
+                        ]
+                     }
+                  ]
+               }
+            },
+            "protected":false,
+            "followers_count":148822,
+            "friends_count":40491,
+            "listed_count":5413,
+            "created_at":"Thu Apr 16 17:06:29 +0000 2009",
+            "favourites_count":848,
+            "utc_offset":-21600,
+            "time_zone":"Central Time (US & Canada)",
+            "geo_enabled":false,
+            "verified":false,
+            "statuses_count":1160,
+            "lang":"en",
+            "contributors_enabled":false,
+            "is_translator":false,
+            "profile_background_color":"0B537F",
+            "profile_background_image_url":"http://a0.twimg.com/profile_background_images/11856009/mooncastel-V3-1600w.jpg",
+            "profile_background_image_url_https":"https://si0.twimg.com/profile_background_images/11856009/mooncastel-V3-1600w.jpg",
+            "profile_background_tile":false,
+            "profile_image_url":"http://a0.twimg.com/profile_images/141070636/42291_normal.jpg",
+            "profile_image_url_https":"https://si0.twimg.com/profile_images/141070636/42291_normal.jpg",
+            "profile_link_color":"9C021D",
+            "profile_sidebar_border_color":"92D60A",
+            "profile_sidebar_fill_color":"3E87F4",
+            "profile_text_color":"030203",
+            "profile_use_background_image":true,
+            "default_profile":false,
+            "default_profile_image":false,
+            "following":null,
+            "follow_request_sent":null,
+            "notifications":null
+         },
+         "geo":null,
+         "coordinates":null,
+         "place":null,
+         "contributors":null,
+         "retweet_count":682,
+         "entities":{
+            "hashtags":[
+
+            ],
+            "urls":[
+
+            ],
+            "user_mentions":[
+
+            ]
+         },
+         "favorited":false,
+         "retweeted":false
+      },
+      "retweet_count":682,
+      "entities":{
+         "hashtags":[
+
+         ],
+         "urls":[
+
+         ],
+         "user_mentions":[
+            {
+               "screen_name":"VeryShortStory",
+               "name":"Very Short Story",
+               "id":31986700,
+               "id_str":"31986700",
+               "indices":[
+                  3,
+                  18
+               ]
+            }
+         ]
+      },
+      "favorited":false,
+      "retweeted":false
+   },
+   {
+      "created_at":"Thu Feb 28 01:53:00 +0000 2013",
+      "id":306945064138063872,
+      "id_str":"306945064138063872",
+      "text":"Amazed at the number of people who are willing to go against the trend and adopt something other than git for vcs. Have fun.",
+      "source":"<a href=\"http://levelupstudio.com/plume\" rel=\"nofollow\">Plume\u00a0for\u00a0Android</a>",
+      "truncated":false,
+      "in_reply_to_status_id":null,
+      "in_reply_to_status_id_str":null,
+      "in_reply_to_user_id":null,
+      "in_reply_to_user_id_str":null,
+      "in_reply_to_screen_name":null,
+      "user":{
+         "id":14196181,
+         "id_str":"14196181",
+         "name":"Adam Dymitruk",
+         "screen_name":"adymitruk",
+         "location":"\u00dcT: 49.209711,-123.147183",
+         "description":"http://t.co/KrLXFAjv Architect/Coach/Dev/Agile.. Interest in Linux/.NET/Node.js/ZeroMQ/CQRS/ES/BDD/DDD/Git/Jetbrains/Android",
+         "url":"http://www.dymitruk.com/",
+         "entities":{
+            "url":{
+               "urls":[
+                  {
+                     "url":"http://www.dymitruk.com/",
+                     "expanded_url":null,
+                     "indices":[
+                        0,
+                        24
+                     ]
+                  }
+               ]
+            },
+            "description":{
+               "urls":[
+                  {
+                     "url":"http://t.co/KrLXFAjv",
+                     "expanded_url":"http://dymitruk.com",
+                     "display_url":"dymitruk.com",
+                     "indices":[
+                        0,
+                        20
+                     ]
+                  }
+               ]
+            }
+         },
+         "protected":false,
+         "followers_count":1371,
+         "friends_count":183,
+         "listed_count":91,
+         "created_at":"Sat Mar 22 07:59:11 +0000 2008",
+         "favourites_count":995,
+         "utc_offset":-28800,
+         "time_zone":"Pacific Time (US & Canada)",
+         "geo_enabled":true,
+         "verified":false,
+         "statuses_count":32089,
+         "lang":"en",
+         "contributors_enabled":false,
+         "is_translator":false,
+         "profile_background_color":"000000",
+         "profile_background_image_url":"http://a0.twimg.com/profile_background_images/259761184/Vancouver-Canucks.br.jpg",
+         "profile_background_image_url_https":"https://si0.twimg.com/profile_background_images/259761184/Vancouver-Canucks.br.jpg",
+         "profile_background_tile":false,
+         "profile_image_url":"http://a0.twimg.com/profile_images/3089425685/b2e38c3d08a44457ae0943bcdc2e4384_normal.jpeg",
+         "profile_image_url_https":"https://si0.twimg.com/profile_images/3089425685/b2e38c3d08a44457ae0943bcdc2e4384_normal.jpeg",
+         "profile_link_color":"CC3300",
+         "profile_sidebar_border_color":"FFFFFF",
+         "profile_sidebar_fill_color":"F7DA93",
+         "profile_text_color":"000000",
+         "profile_use_background_image":true,
+         "default_profile":false,
+         "default_profile_image":false,
+         "following":true,
+         "follow_request_sent":null,
+         "notifications":null
+      },
+      "geo":null,
+      "coordinates":null,
+      "place":null,
+      "contributors":null,
+      "retweet_count":0,
+      "entities":{
+         "hashtags":[
+
+         ],
+         "urls":[
+
+         ],
+         "user_mentions":[
+
+         ]
+      },
+      "favorited":false,
+      "retweeted":false
+   },
+   {
+      "created_at":"Thu Feb 28 01:34:30 +0000 2013",
+      "id":306940408750018561,
+      "id_str":"306940408750018561",
+      "text":"@PANCAKESo and @Smixx swear there's no Android fragmentation, and never make jokes about it. Ever.",
+      "source":"<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "truncated":false,
+      "in_reply_to_status_id":null,
+      "in_reply_to_status_id_str":null,
+      "in_reply_to_user_id":102286425,
+      "in_reply_to_user_id_str":"102286425",
+      "in_reply_to_screen_name":"PANCAKESo",
+      "user":{
+         "id":6141662,
+         "id_str":"6141662",
+         "name":"Christian MacLean",
+         "screen_name":"FourSlice",
+         "location":"iPhone: 51.007748,-114.078712",
+         "description":"Experienced IT consultant, entrepreneur and co-founder of BeauCoo (stealth/seed funded) and Decoder (formerly http://t.co/r1Ftky97.a.tion. )",
+         "url":"http://www.fourslice.com",
+         "entities":{
+            "url":{
+               "urls":[
+                  {
+                     "url":"http://www.fourslice.com",
+                     "expanded_url":null,
+                     "indices":[
+                        0,
+                        24
+                     ]
+                  }
+               ]
+            },
+            "description":{
+               "urls":[
+                  {
+                     "url":"http://t.co/r1Ftky97",
+                     "expanded_url":"http://As.so.ci",
+                     "display_url":"As.so.ci",
+                     "indices":[
+                        110,
+                        130
+                     ]
+                  }
+               ]
+            }
+         },
+         "protected":false,
+         "followers_count":1339,
+         "friends_count":1491,
+         "listed_count":65,
+         "created_at":"Fri May 18 16:18:32 +0000 2007",
+         "favourites_count":39,
+         "utc_offset":-25200,
+         "time_zone":"Mountain Time (US & Canada)",
+         "geo_enabled":true,
+         "verified":false,
+         "statuses_count":6317,
+         "lang":"en",
+         "contributors_enabled":false,
+         "is_translator":false,
+         "profile_background_color":"FFFFFF",
+         "profile_background_image_url":"http://a0.twimg.com/profile_background_images/110046790/back5.jpeg",
+         "profile_background_image_url_https":"https://si0.twimg.com/profile_background_images/110046790/back5.jpeg",
+         "profile_background_tile":false,
+         "profile_image_url":"http://a0.twimg.com/profile_images/1281248757/FourSlice_normal.jpg",
+         "profile_image_url_https":"https://si0.twimg.com/profile_images/1281248757/FourSlice_normal.jpg",
+         "profile_link_color":"0A8DBC",
+         "profile_sidebar_border_color":"00CCFF",
+         "profile_sidebar_fill_color":"00CCFF",
+         "profile_text_color":"666666",
+         "profile_use_background_image":true,
+         "default_profile":false,
+         "default_profile_image":false,
+         "following":true,
+         "follow_request_sent":null,
+         "notifications":null
+      },
+      "geo":null,
+      "coordinates":null,
+      "place":null,
+      "contributors":null,
+      "retweet_count":1,
+      "entities":{
+         "hashtags":[
+
+         ],
+         "urls":[
+
+         ],
+         "user_mentions":[
+            {
+               "screen_name":"PANCAKESo",
+               "name":"Terry",
+               "id":102286425,
+               "id_str":"102286425",
+               "indices":[
+                  0,
+                  10
+               ]
+            },
+            {
+               "screen_name":"Smixx",
+               "name":"Cory Smith",
+               "id":22299590,
+               "id_str":"22299590",
+               "indices":[
+                  15,
+                  21
+               ]
+            }
+         ]
+      },
+      "favorited":false,
+      "retweeted":false
+   },
+   {
+      "created_at":"Thu Feb 28 01:29:37 +0000 2013",
+      "id":306939180670390273,
+      "id_str":"306939180670390273",
+      "text":"Happy 100th episode, Castle! http://t.co/yHQrmxH0wM",
+      "source":"<a href=\"http://www.whosay.com\" rel=\"nofollow\">WhoSay</a>",
+      "truncated":false,
+      "in_reply_to_status_id":null,
+      "in_reply_to_status_id_str":null,
+      "in_reply_to_user_id":null,
+      "in_reply_to_user_id_str":null,
+      "in_reply_to_screen_name":null,
+      "user":{
+         "id":31353077,
+         "id_str":"31353077",
+         "name":"Nathan Fillion",
+         "screen_name":"NathanFillion",
+         "location":"Los Angeles",
+         "description":"It costs nothing to say something kind. Even less to shut up altogether.",
+         "url":null,
+         "entities":{
+            "description":{
+               "urls":[
+
+               ]
+            }
+         },
+         "protected":false,
+         "followers_count":1656193,
+         "friends_count":373,
+         "listed_count":33314,
+         "created_at":"Wed Apr 15 05:57:40 +0000 2009",
+         "favourites_count":109,
+         "utc_offset":-28800,
+         "time_zone":"Pacific Time (US & Canada)",
+         "geo_enabled":false,
+         "verified":true,
+         "statuses_count":4216,
+         "lang":"en",
+         "contributors_enabled":false,
+         "is_translator":false,
+         "profile_background_color":"131516",
+         "profile_background_image_url":"http://a0.twimg.com/images/themes/theme14/bg.gif",
+         "profile_background_image_url_https":"https://si0.twimg.com/images/themes/theme14/bg.gif",
+         "profile_background_tile":true,
+         "profile_image_url":"http://a0.twimg.com/profile_images/2508970611/FF34C5BB-11BB-408E-8D71-B76E618BFDBC_normal",
+         "profile_image_url_https":"https://si0.twimg.com/profile_images/2508970611/FF34C5BB-11BB-408E-8D71-B76E618BFDBC_normal",
+         "profile_link_color":"009999",
+         "profile_sidebar_border_color":"EEEEEE",
+         "profile_sidebar_fill_color":"EFEFEF",
+         "profile_text_color":"333333",
+         "profile_use_background_image":true,
+         "default_profile":false,
+         "default_profile_image":false,
+         "following":true,
+         "follow_request_sent":null,
+         "notifications":null
+      },
+      "geo":null,
+      "coordinates":null,
+      "place":null,
+      "contributors":null,
+      "retweet_count":897,
+      "entities":{
+         "hashtags":[
+
+         ],
+         "urls":[
+            {
+               "url":"http://t.co/yHQrmxH0wM",
+               "expanded_url":"http://say.ly/HRs5gw6",
+               "display_url":"say.ly/HRs5gw6",
+               "indices":[
+                  29,
+                  51
+               ]
+            }
+         ],
+         "user_mentions":[
+
+         ]
+      },
+      "favorited":false,
+      "retweeted":false,
+      "possibly_sensitive":false
+   },
+   {
+      "created_at":"Thu Feb 28 01:23:07 +0000 2013",
+      "id":306937542794702848,
+      "id_str":"306937542794702848",
+      "text":"The  deadline for the Calgary Awards is fast approaching (March 1)! Please nominate great Calgarians for an award: http://t.co/u6jsd5iuW6",
+      "source":"web",
+      "truncated":false,
+      "in_reply_to_status_id":null,
+      "in_reply_to_status_id_str":null,
+      "in_reply_to_user_id":null,
+      "in_reply_to_user_id_str":null,
+      "in_reply_to_screen_name":null,
+      "user":{
+         "id":33798654,
+         "id_str":"33798654",
+         "name":"Naheed Nenshi",
+         "screen_name":"nenshi",
+         "location":"Calgary, Alberta",
+         "description":"Mayor of Calgary.",
+         "url":"http://www.calgarymayor.ca",
+         "entities":{
+            "url":{
+               "urls":[
+                  {
+                     "url":"http://www.calgarymayor.ca",
+                     "expanded_url":null,
+                     "indices":[
+                        0,
+                        26
+                     ]
+                  }
+               ]
+            },
+            "description":{
+               "urls":[
+
+               ]
+            }
+         },
+         "protected":false,
+         "followers_count":84548,
+         "friends_count":1017,
+         "listed_count":1357,
+         "created_at":"Tue Apr 21 03:43:27 +0000 2009",
+         "favourites_count":18,
+         "utc_offset":-25200,
+         "time_zone":"Mountain Time (US & Canada)",
+         "geo_enabled":false,
+         "verified":true,
+         "statuses_count":13537,
+         "lang":"en",
+         "contributors_enabled":false,
+         "is_translator":false,
+         "profile_background_color":"FFFFFF",
+         "profile_background_image_url":"http://a0.twimg.com/profile_background_images/707083685/4c51a2dfd843bffcf37bfcc03a0e09b6.jpeg",
+         "profile_background_image_url_https":"https://si0.twimg.com/profile_background_images/707083685/4c51a2dfd843bffcf37bfcc03a0e09b6.jpeg",
+         "profile_background_tile":false,
+         "profile_image_url":"http://a0.twimg.com/profile_images/2419323389/image_normal.jpg",
+         "profile_image_url_https":"https://si0.twimg.com/profile_images/2419323389/image_normal.jpg",
+         "profile_link_color":"280863",
+         "profile_sidebar_border_color":"FFFFFF",
+         "profile_sidebar_fill_color":"F0F0F0",
+         "profile_text_color":"000000",
+         "profile_use_background_image":true,
+         "default_profile":false,
+         "default_profile_image":false,
+         "following":true,
+         "follow_request_sent":null,
+         "notifications":null
+      },
+      "geo":null,
+      "coordinates":null,
+      "place":null,
+      "contributors":null,
+      "retweet_count":10,
+      "entities":{
+         "hashtags":[
+
+         ],
+         "urls":[
+            {
+               "url":"http://t.co/u6jsd5iuW6",
+               "expanded_url":"http://www.calgary.ca/CA/city-clerks/Pages/Administration-services/Calgary-Awards/Calgary-Awards.aspx",
+               "display_url":"calgary.ca/CA/city-clerks\u2026",
+               "indices":[
+                  115,
+                  137
+               ]
+            }
+         ],
+         "user_mentions":[
+
+         ]
+      },
+      "favorited":false,
+      "retweeted":false,
+      "possibly_sensitive":false
+   },
+   {
+      "created_at":"Thu Feb 28 01:21:53 +0000 2013",
+      "id":306937231103369216,
+      "id_str":"306937231103369216",
+      "text":"RT @sandybassett: Hey @nenshi - my sister and I are auditioning for the @AmazingRaceCDA . May I kindly ask for a RT? http://t.co/7nv17KJhYu",
+      "source":"web",
+      "truncated":false,
+      "in_reply_to_status_id":null,
+      "in_reply_to_status_id_str":null,
+      "in_reply_to_user_id":null,
+      "in_reply_to_user_id_str":null,
+      "in_reply_to_screen_name":null,
+      "user":{
+         "id":33798654,
+         "id_str":"33798654",
+         "name":"Naheed Nenshi",
+         "screen_name":"nenshi",
+         "location":"Calgary, Alberta",
+         "description":"Mayor of Calgary.",
+         "url":"http://www.calgarymayor.ca",
+         "entities":{
+            "url":{
+               "urls":[
+                  {
+                     "url":"http://www.calgarymayor.ca",
+                     "expanded_url":null,
+                     "indices":[
+                        0,
+                        26
+                     ]
+                  }
+               ]
+            },
+            "description":{
+               "urls":[
+
+               ]
+            }
+         },
+         "protected":false,
+         "followers_count":84548,
+         "friends_count":1017,
+         "listed_count":1357,
+         "created_at":"Tue Apr 21 03:43:27 +0000 2009",
+         "favourites_count":18,
+         "utc_offset":-25200,
+         "time_zone":"Mountain Time (US & Canada)",
+         "geo_enabled":false,
+         "verified":true,
+         "statuses_count":13537,
+         "lang":"en",
+         "contributors_enabled":false,
+         "is_translator":false,
+         "profile_background_color":"FFFFFF",
+         "profile_background_image_url":"http://a0.twimg.com/profile_background_images/707083685/4c51a2dfd843bffcf37bfcc03a0e09b6.jpeg",
+         "profile_background_image_url_https":"https://si0.twimg.com/profile_background_images/707083685/4c51a2dfd843bffcf37bfcc03a0e09b6.jpeg",
+         "profile_background_tile":false,
+         "profile_image_url":"http://a0.twimg.com/profile_images/2419323389/image_normal.jpg",
+         "profile_image_url_https":"https://si0.twimg.com/profile_images/2419323389/image_normal.jpg",
+         "profile_link_color":"280863",
+         "profile_sidebar_border_color":"FFFFFF",
+         "profile_sidebar_fill_color":"F0F0F0",
+         "profile_text_color":"000000",
+         "profile_use_background_image":true,
+         "default_profile":false,
+         "default_profile_image":false,
+         "following":true,
+         "follow_request_sent":null,
+         "notifications":null
+      },
+      "geo":null,
+      "coordinates":null,
+      "place":null,
+      "contributors":null,
+      "retweeted_status":{
+         "created_at":"Wed Feb 27 19:10:07 +0000 2013",
+         "id":306843672593436672,
+         "id_str":"306843672593436672",
+         "text":"Hey @nenshi - my sister and I are auditioning for the @AmazingRaceCDA . May I kindly ask for a RT? http://t.co/7nv17KJhYu",
+         "source":"web",
+         "truncated":false,
+         "in_reply_to_status_id":null,
+         "in_reply_to_status_id_str":null,
+         "in_reply_to_user_id":null,
+         "in_reply_to_user_id_str":null,
+         "in_reply_to_screen_name":null,
+         "user":{
+            "id":277727441,
+            "id_str":"277727441",
+            "name":"SandyBassett",
+            "screen_name":"sandybassett",
+            "location":"Calgary",
+            "description":"Digital Marketing Sherpa - Guiding you up the Digital Marketing mountain.",
+            "url":"http://www.scoop.it/t/digital-content-marketing-bassett",
+            "entities":{
+               "url":{
+                  "urls":[
+                     {
+                        "url":"http://www.scoop.it/t/digital-content-marketing-bassett",
+                        "expanded_url":null,
+                        "indices":[
+                           0,
+                           55
+                        ]
+                     }
+                  ]
+               },
+               "description":{
+                  "urls":[
+
+                  ]
+               }
+            },
+            "protected":false,
+            "followers_count":126,
+            "friends_count":302,
+            "listed_count":2,
+            "created_at":"Tue Apr 05 22:28:29 +0000 2011",
+            "favourites_count":45,
+            "utc_offset":null,
+            "time_zone":null,
+            "geo_enabled":false,
+            "verified":false,
+            "statuses_count":1188,
+            "lang":"en",
+            "contributors_enabled":false,
+            "is_translator":false,
+            "profile_background_color":"8B542B",
+            "profile_background_image_url":"http://a0.twimg.com/images/themes/theme8/bg.gif",
+            "profile_background_image_url_https":"https://si0.twimg.com/images/themes/theme8/bg.gif",
+            "profile_background_tile":false,
+            "profile_image_url":"http://a0.twimg.com/profile_images/2030497476/image_normal.jpg",
+            "profile_image_url_https":"https://si0.twimg.com/profile_images/2030497476/image_normal.jpg",
+            "profile_link_color":"9D582E",
+            "profile_sidebar_border_color":"D9B17E",
+            "profile_sidebar_fill_color":"EADEAA",
+            "profile_text_color":"333333",
+            "profile_use_background_image":true,
+            "default_profile":false,
+            "default_profile_image":false,
+            "following":null,
+            "follow_request_sent":null,
+            "notifications":null
+         },
+         "geo":null,
+         "coordinates":null,
+         "place":null,
+         "contributors":null,
+         "retweet_count":4,
+         "entities":{
+            "hashtags":[
+
+            ],
+            "urls":[
+               {
+                  "url":"http://t.co/7nv17KJhYu",
+                  "expanded_url":"http://bit.ly/Vaaeh1",
+                  "display_url":"bit.ly/Vaaeh1",
+                  "indices":[
+                     99,
+                     121
+                  ]
+               }
+            ],
+            "user_mentions":[
+               {
+                  "screen_name":"nenshi",
+                  "name":"Naheed Nenshi",
+                  "id":33798654,
+                  "id_str":"33798654",
+                  "indices":[
+                     4,
+                     11
+                  ]
+               },
+               {
+                  "screen_name":"AmazingRaceCDA",
+                  "name":"Amazing Race Canada",
+                  "id":904367624,
+                  "id_str":"904367624",
+                  "indices":[
+                     54,
+                     69
+                  ]
+               }
+            ]
+         },
+         "favorited":false,
+         "retweeted":false,
+         "possibly_sensitive":false
+      },
+      "retweet_count":4,
+      "entities":{
+         "hashtags":[
+
+         ],
+         "urls":[
+            {
+               "url":"http://t.co/7nv17KJhYu",
+               "expanded_url":"http://bit.ly/Vaaeh1",
+               "display_url":"bit.ly/Vaaeh1",
+               "indices":[
+                  117,
+                  139
+               ]
+            }
+         ],
+         "user_mentions":[
+            {
+               "screen_name":"sandybassett",
+               "name":"SandyBassett",
+               "id":277727441,
+               "id_str":"277727441",
+               "indices":[
+                  3,
+                  16
+               ]
+            },
+            {
+               "screen_name":"nenshi",
+               "name":"Naheed Nenshi",
+               "id":33798654,
+               "id_str":"33798654",
+               "indices":[
+                  22,
+                  29
+               ]
+            },
+            {
+               "screen_name":"AmazingRaceCDA",
+               "name":"Amazing Race Canada",
+               "id":904367624,
+               "id_str":"904367624",
+               "indices":[
+                  72,
+                  87
+               ]
+            }
+         ]
+      },
+      "favorited":false,
+      "retweeted":false,
+      "possibly_sensitive":false
+   },
+   {
+      "created_at":"Thu Feb 28 01:20:53 +0000 2013",
+      "id":306936980376256512,
+      "id_str":"306936980376256512",
+      "text":"RT @taybirdy: Mayor @nenshi! Could I get a RT for @CowtownOpera's Sing-Along Phantom of the Opera? A unique musical experience in Inglew ...",
+      "source":"web",
+      "truncated":false,
+      "in_reply_to_status_id":null,
+      "in_reply_to_status_id_str":null,
+      "in_reply_to_user_id":null,
+      "in_reply_to_user_id_str":null,
+      "in_reply_to_screen_name":null,
+      "user":{
+         "id":33798654,
+         "id_str":"33798654",
+         "name":"Naheed Nenshi",
+         "screen_name":"nenshi",
+         "location":"Calgary, Alberta",
+         "description":"Mayor of Calgary.",
+         "url":"http://www.calgarymayor.ca",
+         "entities":{
+            "url":{
+               "urls":[
+                  {
+                     "url":"http://www.calgarymayor.ca",
+                     "expanded_url":null,
+                     "indices":[
+                        0,
+                        26
+                     ]
+                  }
+               ]
+            },
+            "description":{
+               "urls":[
+
+               ]
+            }
+         },
+         "protected":false,
+         "followers_count":84548,
+         "friends_count":1017,
+         "listed_count":1357,
+         "created_at":"Tue Apr 21 03:43:27 +0000 2009",
+         "favourites_count":18,
+         "utc_offset":-25200,
+         "time_zone":"Mountain Time (US & Canada)",
+         "geo_enabled":false,
+         "verified":true,
+         "statuses_count":13537,
+         "lang":"en",
+         "contributors_enabled":false,
+         "is_translator":false,
+         "profile_background_color":"FFFFFF",
+         "profile_background_image_url":"http://a0.twimg.com/profile_background_images/707083685/4c51a2dfd843bffcf37bfcc03a0e09b6.jpeg",
+         "profile_background_image_url_https":"https://si0.twimg.com/profile_background_images/707083685/4c51a2dfd843bffcf37bfcc03a0e09b6.jpeg",
+         "profile_background_tile":false,
+         "profile_image_url":"http://a0.twimg.com/profile_images/2419323389/image_normal.jpg",
+         "profile_image_url_https":"https://si0.twimg.com/profile_images/2419323389/image_normal.jpg",
+         "profile_link_color":"280863",
+         "profile_sidebar_border_color":"FFFFFF",
+         "profile_sidebar_fill_color":"F0F0F0",
+         "profile_text_color":"000000",
+         "profile_use_background_image":true,
+         "default_profile":false,
+         "default_profile_image":false,
+         "following":true,
+         "follow_request_sent":null,
+         "notifications":null
+      },
+      "geo":null,
+      "coordinates":null,
+      "place":null,
+      "contributors":null,
+      "retweeted_status":{
+         "created_at":"Wed Feb 27 20:53:56 +0000 2013",
+         "id":306869801748426752,
+         "id_str":"306869801748426752",
+         "text":"Mayor @nenshi! Could I get a RT for @CowtownOpera's Sing-Along Phantom of the Opera? A unique musical experience in Inglewood this weekend!",
+         "source":"web",
+         "truncated":false,
+         "in_reply_to_status_id":null,
+         "in_reply_to_status_id_str":null,
+         "in_reply_to_user_id":null,
+         "in_reply_to_user_id_str":null,
+         "in_reply_to_screen_name":null,
+         "user":{
+            "id":85990837,
+            "id_str":"85990837",
+            "name":"Taylor Robertson",
+            "screen_name":"taybirdy",
+            "location":"Calgary, AB",
+            "description":"Singer. Teacher. Partner. Occasional Administrative Rockstar.",
+            "url":"http://www.taylorrobertson.com",
+            "entities":{
+               "url":{
+                  "urls":[
+                     {
+                        "url":"http://www.taylorrobertson.com",
+                        "expanded_url":null,
+                        "indices":[
+                           0,
+                           30
+                        ]
+                     }
+                  ]
+               },
+               "description":{
+                  "urls":[
+
+                  ]
+               }
+            },
+            "protected":false,
+            "followers_count":222,
+            "friends_count":304,
+            "listed_count":19,
+            "created_at":"Thu Oct 29 04:07:25 +0000 2009",
+            "favourites_count":83,
+            "utc_offset":-18000,
+            "time_zone":"Eastern Time (US & Canada)",
+            "geo_enabled":false,
+            "verified":false,
+            "statuses_count":2577,
+            "lang":"en",
+            "contributors_enabled":false,
+            "is_translator":false,
+            "profile_background_color":"EDE3C9",
+            "profile_background_image_url":"http://a0.twimg.com/profile_background_images/698080562/ebf298cc7fccb6170c9c76978a91782e.png",
+            "profile_background_image_url_https":"https://si0.twimg.com/profile_background_images/698080562/ebf298cc7fccb6170c9c76978a91782e.png",
+            "profile_background_tile":true,
+            "profile_image_url":"http://a0.twimg.com/profile_images/3311886136/abeb4cb32e25b4c41f1f2726f3d1c75d_normal.jpeg",
+            "profile_image_url_https":"https://si0.twimg.com/profile_images/3311886136/abeb4cb32e25b4c41f1f2726f3d1c75d_normal.jpeg",
+            "profile_link_color":"CEC8B2",
+            "profile_sidebar_border_color":"E13649",
+            "profile_sidebar_fill_color":"9B4B4B",
+            "profile_text_color":"EC9280",
+            "profile_use_background_image":true,
+            "default_profile":false,
+            "default_profile_image":false,
+            "following":null,
+            "follow_request_sent":null,
+            "notifications":null
+         },
+         "geo":null,
+         "coordinates":null,
+         "place":null,
+         "contributors":null,
+         "retweet_count":5,
+         "entities":{
+            "hashtags":[
+
+            ],
+            "urls":[
+
+            ],
+            "user_mentions":[
+               {
+                  "screen_name":"nenshi",
+                  "name":"Naheed Nenshi",
+                  "id":33798654,
+                  "id_str":"33798654",
+                  "indices":[
+                     6,
+                     13
+                  ]
+               },
+               {
+                  "screen_name":"CowtownOpera",
+                  "name":"Cowtown Opera ",
+                  "id":257314061,
+                  "id_str":"257314061",
+                  "indices":[
+                     36,
+                     49
+                  ]
+               }
+            ]
+         },
+         "favorited":false,
+         "retweeted":false
+      },
+      "retweet_count":5,
+      "entities":{
+         "hashtags":[
+
+         ],
+         "urls":[
+
+         ],
+         "user_mentions":[
+            {
+               "screen_name":"taybirdy",
+               "name":"Taylor Robertson",
+               "id":85990837,
+               "id_str":"85990837",
+               "indices":[
+                  3,
+                  12
+               ]
+            },
+            {
+               "screen_name":"nenshi",
+               "name":"Naheed Nenshi",
+               "id":33798654,
+               "id_str":"33798654",
+               "indices":[
+                  20,
+                  27
+               ]
+            },
+            {
+               "screen_name":"CowtownOpera",
+               "name":"Cowtown Opera ",
+               "id":257314061,
+               "id_str":"257314061",
+               "indices":[
+                  50,
+                  63
+               ]
+            }
+         ]
+      },
+      "favorited":false,
+      "retweeted":false
+   },
+   {
+      "created_at":"Thu Feb 28 01:19:03 +0000 2013",
+      "id":306936519527104512,
+      "id_str":"306936519527104512",
+      "text":"RT @BrennaAtnikov: @nenshi Big kudos to @cityofcalgary staffer Cliff de Jong who responded to a question quickly &amp; in plain language ...",
+      "source":"web",
+      "truncated":false,
+      "in_reply_to_status_id":null,
+      "in_reply_to_status_id_str":null,
+      "in_reply_to_user_id":null,
+      "in_reply_to_user_id_str":null,
+      "in_reply_to_screen_name":null,
+      "user":{
+         "id":33798654,
+         "id_str":"33798654",
+         "name":"Naheed Nenshi",
+         "screen_name":"nenshi",
+         "location":"Calgary, Alberta",
+         "description":"Mayor of Calgary.",
+         "url":"http://www.calgarymayor.ca",
+         "entities":{
+            "url":{
+               "urls":[
+                  {
+                     "url":"http://www.calgarymayor.ca",
+                     "expanded_url":null,
+                     "indices":[
+                        0,
+                        26
+                     ]
+                  }
+               ]
+            },
+            "description":{
+               "urls":[
+
+               ]
+            }
+         },
+         "protected":false,
+         "followers_count":84548,
+         "friends_count":1017,
+         "listed_count":1357,
+         "created_at":"Tue Apr 21 03:43:27 +0000 2009",
+         "favourites_count":18,
+         "utc_offset":-25200,
+         "time_zone":"Mountain Time (US & Canada)",
+         "geo_enabled":false,
+         "verified":true,
+         "statuses_count":13537,
+         "lang":"en",
+         "contributors_enabled":false,
+         "is_translator":false,
+         "profile_background_color":"FFFFFF",
+         "profile_background_image_url":"http://a0.twimg.com/profile_background_images/707083685/4c51a2dfd843bffcf37bfcc03a0e09b6.jpeg",
+         "profile_background_image_url_https":"https://si0.twimg.com/profile_background_images/707083685/4c51a2dfd843bffcf37bfcc03a0e09b6.jpeg",
+         "profile_background_tile":false,
+         "profile_image_url":"http://a0.twimg.com/profile_images/2419323389/image_normal.jpg",
+         "profile_image_url_https":"https://si0.twimg.com/profile_images/2419323389/image_normal.jpg",
+         "profile_link_color":"280863",
+         "profile_sidebar_border_color":"FFFFFF",
+         "profile_sidebar_fill_color":"F0F0F0",
+         "profile_text_color":"000000",
+         "profile_use_background_image":true,
+         "default_profile":false,
+         "default_profile_image":false,
+         "following":true,
+         "follow_request_sent":null,
+         "notifications":null
+      },
+      "geo":null,
+      "coordinates":null,
+      "place":null,
+      "contributors":null,
+      "retweeted_status":{
+         "created_at":"Thu Feb 28 01:06:02 +0000 2013",
+         "id":306933245004632064,
+         "id_str":"306933245004632064",
+         "text":"@nenshi Big kudos to @cityofcalgary staffer Cliff de Jong who responded to a question quickly &amp; in plain language to this non-City \"speaker\"",
+         "source":"<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+         "truncated":false,
+         "in_reply_to_status_id":null,
+         "in_reply_to_status_id_str":null,
+         "in_reply_to_user_id":33798654,
+         "in_reply_to_user_id_str":"33798654",
+         "in_reply_to_screen_name":"nenshi",
+         "user":{
+            "id":469778715,
+            "id_str":"469778715",
+            "name":"Brenna Atnikov",
+            "screen_name":"BrennaAtnikov",
+            "location":"Calgary, AB",
+            "description":"Striving for deeper understanding of the dynamics of human-made & natural systems so that I can contribute to meaningful positive change. ",
+            "url":"http://www.ravenconversations.ca",
+            "entities":{
+               "url":{
+                  "urls":[
+                     {
+                        "url":"http://www.ravenconversations.ca",
+                        "expanded_url":null,
+                        "indices":[
+                           0,
+                           32
+                        ]
+                     }
+                  ]
+               },
+               "description":{
+                  "urls":[
+
+                  ]
+               }
+            },
+            "protected":false,
+            "followers_count":464,
+            "friends_count":592,
+            "listed_count":17,
+            "created_at":"Sat Jan 21 00:01:42 +0000 2012",
+            "favourites_count":236,
+            "utc_offset":-28800,
+            "time_zone":"Pacific Time (US & Canada)",
+            "geo_enabled":false,
+            "verified":false,
+            "statuses_count":1104,
+            "lang":"en",
+            "contributors_enabled":false,
+            "is_translator":false,
+            "profile_background_color":"C6E2EE",
+            "profile_background_image_url":"http://a0.twimg.com/images/themes/theme2/bg.gif",
+            "profile_background_image_url_https":"https://si0.twimg.com/images/themes/theme2/bg.gif",
+            "profile_background_tile":false,
+            "profile_image_url":"http://a0.twimg.com/profile_images/1792315959/Crop_profile_normal.jpg",
+            "profile_image_url_https":"https://si0.twimg.com/profile_images/1792315959/Crop_profile_normal.jpg",
+            "profile_banner_url":"https://si0.twimg.com/profile_banners/469778715/1353351184",
+            "profile_link_color":"1F98C7",
+            "profile_sidebar_border_color":"C6E2EE",
+            "profile_sidebar_fill_color":"DAECF4",
+            "profile_text_color":"663B12",
+            "profile_use_background_image":true,
+            "default_profile":false,
+            "default_profile_image":false,
+            "following":null,
+            "follow_request_sent":null,
+            "notifications":null
+         },
+         "geo":null,
+         "coordinates":null,
+         "place":null,
+         "contributors":null,
+         "retweet_count":4,
+         "entities":{
+            "hashtags":[
+
+            ],
+            "urls":[
+
+            ],
+            "user_mentions":[
+               {
+                  "screen_name":"nenshi",
+                  "name":"Naheed Nenshi",
+                  "id":33798654,
+                  "id_str":"33798654",
+                  "indices":[
+                     0,
+                     7
+                  ]
+               },
+               {
+                  "screen_name":"cityofcalgary",
+                  "name":"City of Calgary",
+                  "id":15933148,
+                  "id_str":"15933148",
+                  "indices":[
+                     21,
+                     35
+                  ]
+               }
+            ]
+         },
+         "favorited":false,
+         "retweeted":false
+      },
+      "retweet_count":4,
+      "entities":{
+         "hashtags":[
+
+         ],
+         "urls":[
+
+         ],
+         "user_mentions":[
+            {
+               "screen_name":"BrennaAtnikov",
+               "name":"Brenna Atnikov",
+               "id":469778715,
+               "id_str":"469778715",
+               "indices":[
+                  3,
+                  17
+               ]
+            },
+            {
+               "screen_name":"nenshi",
+               "name":"Naheed Nenshi",
+               "id":33798654,
+               "id_str":"33798654",
+               "indices":[
+                  19,
+                  26
+               ]
+            },
+            {
+               "screen_name":"cityofcalgary",
+               "name":"City of Calgary",
+               "id":15933148,
+               "id_str":"15933148",
+               "indices":[
+                  40,
+                  54
+               ]
+            }
+         ]
+      },
+      "favorited":false,
+      "retweeted":false
+   },
+   {
+      "created_at":"Thu Feb 28 01:10:22 +0000 2013",
+      "id":306934332872867840,
+      "id_str":"306934332872867840",
+      "text":"RT @awilkinson: Just saw Sergey Brin wearing Crocs with Google Glass. This guy does not give a FUCK.",
+      "source":"<a href=\"http://tapbots.com/tweetbot\" rel=\"nofollow\">Tweetbot for iOS</a>",
+      "truncated":false,
+      "in_reply_to_status_id":null,
+      "in_reply_to_status_id_str":null,
+      "in_reply_to_user_id":null,
+      "in_reply_to_user_id_str":null,
+      "in_reply_to_screen_name":null,
+      "user":{
+         "id":28461983,
+         "id_str":"28461983",
+         "name":"Eric Anderson",
+         "screen_name":"TheEricAnderson",
+         "location":"Calgary, Alberta",
+         "description":"Startup enthusiast. Caffeine abuser. Breakfast fanatic. Music explorer.",
+         "url":null,
+         "entities":{
+            "description":{
+               "urls":[
+
+               ]
+            }
+         },
+         "protected":false,
+         "followers_count":432,
+         "friends_count":419,
+         "listed_count":16,
+         "created_at":"Fri Apr 03 00:44:57 +0000 2009",
+         "favourites_count":769,
+         "utc_offset":-25200,
+         "time_zone":"Mountain Time (US & Canada)",
+         "geo_enabled":true,
+         "verified":false,
+         "statuses_count":8152,
+         "lang":"en",
+         "contributors_enabled":false,
+         "is_translator":false,
+         "profile_background_color":"0F0A02",
+         "profile_background_image_url":"http://a0.twimg.com/profile_background_images/655180353/9pq42e5ghb2w2hqsbrii.jpeg",
+         "profile_background_image_url_https":"https://si0.twimg.com/profile_background_images/655180353/9pq42e5ghb2w2hqsbrii.jpeg",
+         "profile_background_tile":false,
+         "profile_image_url":"http://a0.twimg.com/profile_images/2954955142/10f355761163e79f0b5248e70d7c5724_normal.jpeg",
+         "profile_image_url_https":"https://si0.twimg.com/profile_images/2954955142/10f355761163e79f0b5248e70d7c5724_normal.jpeg",
+         "profile_link_color":"8A7302",
+         "profile_sidebar_border_color":"BCB302",
+         "profile_sidebar_fill_color":"171106",
+         "profile_text_color":"473623",
+         "profile_use_background_image":true,
+         "default_profile":false,
+         "default_profile_image":false,
+         "following":true,
+         "follow_request_sent":null,
+         "notifications":null
+      },
+      "geo":null,
+      "coordinates":null,
+      "place":null,
+      "contributors":null,
+      "retweeted_status":{
+         "created_at":"Wed Feb 27 20:41:22 +0000 2013",
+         "id":306866638567919616,
+         "id_str":"306866638567919616",
+         "text":"Just saw Sergey Brin wearing Crocs with Google Glass. This guy does not give a FUCK.",
+         "source":"<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+         "truncated":false,
+         "in_reply_to_status_id":null,
+         "in_reply_to_status_id_str":null,
+         "in_reply_to_user_id":null,
+         "in_reply_to_user_id_str":null,
+         "in_reply_to_screen_name":null,
+         "user":{
+            "id":3302,
+            "id_str":"3302",
+            "name":"Andrew Wilkinson",
+            "screen_name":"awilkinson",
+            "location":"Victoria, Canada",
+            "description":"I run an interface design agency called MetaLab.",
+            "url":"http://metalabdesign.com",
+            "entities":{
+               "url":{
+                  "urls":[
+                     {
+                        "url":"http://metalabdesign.com",
+                        "expanded_url":null,
+                        "indices":[
+                           0,
+                           24
+                        ]
+                     }
+                  ]
+               },
+               "description":{
+                  "urls":[
+
+                  ]
+               }
+            },
+            "protected":false,
+            "followers_count":9590,
+            "friends_count":1198,
+            "listed_count":734,
+            "created_at":"Fri Jul 28 02:16:08 +0000 2006",
+            "favourites_count":1355,
+            "utc_offset":-28800,
+            "time_zone":"Pacific Time (US & Canada)",
+            "geo_enabled":true,
+            "verified":false,
+            "statuses_count":7638,
+            "lang":"en",
+            "contributors_enabled":false,
+            "is_translator":false,
+            "profile_background_color":"0099B9",
+            "profile_background_image_url":"http://a0.twimg.com/images/themes/theme4/bg.gif",
+            "profile_background_image_url_https":"https://si0.twimg.com/images/themes/theme4/bg.gif",
+            "profile_background_tile":false,
+            "profile_image_url":"http://a0.twimg.com/profile_images/1797992879/Screen_Shot_2012-02-01_at_5.03.35_PM_normal.png",
+            "profile_image_url_https":"https://si0.twimg.com/profile_images/1797992879/Screen_Shot_2012-02-01_at_5.03.35_PM_normal.png",
+            "profile_link_color":"0099B9",
+            "profile_sidebar_border_color":"5ED4DC",
+            "profile_sidebar_fill_color":"95E8EC",
+            "profile_text_color":"3C3940",
+            "profile_use_background_image":true,
+            "default_profile":false,
+            "default_profile_image":false,
+            "following":null,
+            "follow_request_sent":null,
+            "notifications":null
+         },
+         "geo":null,
+         "coordinates":null,
+         "place":null,
+         "contributors":null,
+         "retweet_count":36,
+         "entities":{
+            "hashtags":[
+
+            ],
+            "urls":[
+
+            ],
+            "user_mentions":[
+
+            ]
+         },
+         "favorited":false,
+         "retweeted":false
+      },
+      "retweet_count":36,
+      "entities":{
+         "hashtags":[
+
+         ],
+         "urls":[
+
+         ],
+         "user_mentions":[
+            {
+               "screen_name":"awilkinson",
+               "name":"Andrew Wilkinson",
+               "id":3302,
+               "id_str":"3302",
+               "indices":[
+                  3,
+                  14
+               ]
+            }
+         ]
+      },
+      "favorited":false,
+      "retweeted":false
+   },
+   {
+      "created_at":"Thu Feb 28 01:05:15 +0000 2013",
+      "id":306933048572796928,
+      "id_str":"306933048572796928",
+      "text":"I want Kinjos so bad right now. Pumped for the one to open in Fish Creek.",
+      "source":"<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "truncated":false,
+      "in_reply_to_status_id":null,
+      "in_reply_to_status_id_str":null,
+      "in_reply_to_user_id":null,
+      "in_reply_to_user_id_str":null,
+      "in_reply_to_screen_name":null,
+      "user":{
+         "id":150871958,
+         "id_str":"150871958",
+         "name":"Jesse McFarlane",
+         "screen_name":"Jesse_McFarlane",
+         "location":"Calgary, Alberta",
+         "description":"Hockey player & Computer Geek",
+         "url":null,
+         "entities":{
+            "description":{
+               "urls":[
+
+               ]
+            }
+         },
+         "protected":true,
+         "followers_count":197,
+         "friends_count":351,
+         "listed_count":2,
+         "created_at":"Wed Jun 02 01:34:25 +0000 2010",
+         "favourites_count":196,
+         "utc_offset":-25200,
+         "time_zone":"Mountain Time (US & Canada)",
+         "geo_enabled":false,
+         "verified":false,
+         "statuses_count":5252,
+         "lang":"en",
+         "contributors_enabled":false,
+         "is_translator":false,
+         "profile_background_color":"C0DEED",
+         "profile_background_image_url":"http://a0.twimg.com/images/themes/theme1/bg.png",
+         "profile_background_image_url_https":"https://si0.twimg.com/images/themes/theme1/bg.png",
+         "profile_background_tile":false,
+         "profile_image_url":"http://a0.twimg.com/profile_images/3307885491/8ab325f069a7b34e73bd12c1712927e6_normal.jpeg",
+         "profile_image_url_https":"https://si0.twimg.com/profile_images/3307885491/8ab325f069a7b34e73bd12c1712927e6_normal.jpeg",
+         "profile_link_color":"0084B4",
+         "profile_sidebar_border_color":"C0DEED",
+         "profile_sidebar_fill_color":"DDEEF6",
+         "profile_text_color":"333333",
+         "profile_use_background_image":true,
+         "default_profile":true,
+         "default_profile_image":false,
+         "following":true,
+         "follow_request_sent":null,
+         "notifications":null
+      },
+      "geo":null,
+      "coordinates":null,
+      "place":null,
+      "contributors":null,
+      "retweet_count":0,
+      "entities":{
+         "hashtags":[
+
+         ],
+         "urls":[
+
+         ],
+         "user_mentions":[
+
+         ]
+      },
+      "favorited":false,
+      "retweeted":false
+   },
+   {
+      "created_at":"Thu Feb 28 00:41:31 +0000 2013",
+      "id":306927072809467904,
+      "id_str":"306927072809467904",
+      "text":"OH \"...you're just not failing as badly as you could be failing.\"  o_O",
+      "source":"web",
+      "truncated":false,
+      "in_reply_to_status_id":null,
+      "in_reply_to_status_id_str":null,
+      "in_reply_to_user_id":null,
+      "in_reply_to_user_id_str":null,
+      "in_reply_to_screen_name":null,
+      "user":{
+         "id":16063910,
+         "id_str":"16063910",
+         "name":"Adron Hall",
+         "screen_name":"adron",
+         "location":"Portland, OR",
+         "description":"Cloud computing, software dev, heavy metal, transit, economics, livability, beautiful things, and adrenaline junkie. All here is mine, not anyone employing me.",
+         "url":"http://compositecode.com",
+         "entities":{
+            "url":{
+               "urls":[
+                  {
+                     "url":"http://compositecode.com",
+                     "expanded_url":null,
+                     "indices":[
+                        0,
+                        24
+                     ]
+                  }
+               ]
+            },
+            "description":{
+               "urls":[
+
+               ]
+            }
+         },
+         "protected":false,
+         "followers_count":4424,
+         "friends_count":342,
+         "listed_count":246,
+         "created_at":"Sun Aug 31 05:56:04 +0000 2008",
+         "favourites_count":313,
+         "utc_offset":-28800,
+         "time_zone":"Pacific Time (US & Canada)",
+         "geo_enabled":true,
+         "verified":false,
+         "statuses_count":30188,
+         "lang":"en",
+         "contributors_enabled":false,
+         "is_translator":false,
+         "profile_background_color":"022330",
+         "profile_background_image_url":"http://a0.twimg.com/images/themes/theme15/bg.png",
+         "profile_background_image_url_https":"https://si0.twimg.com/images/themes/theme15/bg.png",
+         "profile_background_tile":false,
+         "profile_image_url":"http://a0.twimg.com/profile_images/2941179636/d70e552f1cf72957c0f7bfb04e1d2b3c_normal.jpeg",
+         "profile_image_url_https":"https://si0.twimg.com/profile_images/2941179636/d70e552f1cf72957c0f7bfb04e1d2b3c_normal.jpeg",
+         "profile_banner_url":"https://si0.twimg.com/profile_banners/16063910/1353653412",
+         "profile_link_color":"0084B4",
+         "profile_sidebar_border_color":"A8C7F7",
+         "profile_sidebar_fill_color":"C0DFEC",
+         "profile_text_color":"333333",
+         "profile_use_background_image":true,
+         "default_profile":false,
+         "default_profile_image":false,
+         "following":true,
+         "follow_request_sent":null,
+         "notifications":null
+      },
+      "geo":null,
+      "coordinates":null,
+      "place":{
+         "id":"ac88a4f17a51c7fc",
+         "url":"https://api.twitter.com/1.1/geo/id/ac88a4f17a51c7fc.json",
+         "place_type":"city",
+         "name":"Portland",
+         "full_name":"Portland, OR",
+         "country_code":"US",
+         "country":"United States",
+         "bounding_box":{
+            "type":"Polygon",
+            "coordinates":[
+               [
+                  [
+                     -122.836995,
+                     45.431985
+                  ],
+                  [
+                     -122.471849,
+                     45.431985
+                  ],
+                  [
+                     -122.471849,
+                     45.654424
+                  ],
+                  [
+                     -122.836995,
+                     45.654424
+                  ]
+               ]
+            ]
+         },
+         "attributes":{
+
+         }
+      },
+      "contributors":null,
+      "retweet_count":0,
+      "entities":{
+         "hashtags":[
+
+         ],
+         "urls":[
+
+         ],
+         "user_mentions":[
+
+         ]
+      },
+      "favorited":false,
+      "retweeted":false
+   }
+]

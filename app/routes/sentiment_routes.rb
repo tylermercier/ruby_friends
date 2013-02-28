@@ -19,15 +19,11 @@ class MyApp < Sinatra::Base
   end
 
   get "/feed" do
-    time_block 'total time' do
-      @sentiment = Sentimentalizer.analyze('That was glorious!')
-    end
-
     user = session[:user]
     client = user.twitter_client
-
+    following = Following.parse(client.home_timeline)
     content_type :json
-    @sentiment.to_json
+    following.to_json
   end
 
   post "/api/feed" do
