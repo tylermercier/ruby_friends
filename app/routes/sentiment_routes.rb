@@ -20,14 +20,14 @@ class MyApp < Sinatra::Base
 
   get "/api/feed" do
     client = ClientFactory.build_for_user(session[:user])
-    following = Following.parse(client.home_timeline)
+    following = Following.new(client.home_timeline)
     content_type :json
     following.to_json
   end
 
   post "/api/feed" do
     client = ClientFactory.build_from_auth_string(params[:authString])
-    following = Following.parse(client.home_timeline)
+    following = Following.new(client.home_timeline)
     content_type :json
     following.to_json
   end
