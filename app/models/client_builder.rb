@@ -1,5 +1,5 @@
-class ClientBuilder
-  def self.build(user)
+module ClientBuilder
+  def twitter_client(user)
     auth = Authorization.find_by_user_id_and_provider(user.id, "twitter")
     Twitter::Client.new(
       oauth_token: auth.token,

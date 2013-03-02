@@ -1,4 +1,8 @@
+require "#{File.dirname(__FILE__)}/user_form_parser"
+
 class User < ActiveRecord::Base
+  extend UserFormParser
+
   has_many :authorizations
   validates :name, :presence => true
 

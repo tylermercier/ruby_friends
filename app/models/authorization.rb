@@ -1,4 +1,8 @@
+require "#{File.dirname(__FILE__)}/client_builder"
+
 class Authorization < ActiveRecord::Base
+  extend ClientBuilder
+
   belongs_to :user
   validates :provider, :uid, :presence => true
 

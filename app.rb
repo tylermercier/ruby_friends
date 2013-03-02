@@ -8,9 +8,6 @@ require "logger"
 require "twitter"
 require "./lib/sentiment/sentimentalizer"
 require "./lib/twitter/following"
-require "./lib/client_builder"
-require "./lib/user_builder"
-require "./lib/form_parser"
 
 class MyApp < Sinatra::Base
   enable :sessions
@@ -30,7 +27,7 @@ class MyApp < Sinatra::Base
 
   before do
     content_type "text/html", :charset => "utf-8"
-    @user = session[:user]
+    @current_user = session[:user]
   end
 
   Dir["./app/helpers/*.rb"].each { |file| require file }
