@@ -1,6 +1,6 @@
 class Parser
   def self.tokenize(text)
-    Tokens.new(text)
+    Tokenizer.new(text)
       .clean_text
       .remove_punctuation
       .remove_words_attached_to_symbols
@@ -10,7 +10,7 @@ class Parser
   end
 end
 
-class Tokens
+class Tokenizer
   def initialize(text)
     @text = text
   end

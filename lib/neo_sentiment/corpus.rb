@@ -3,6 +3,8 @@ require "#{File.dirname(__FILE__)}/parser"
 class CorpusEx
   attr_reader :token_count
 
+  UNKNOWN_WORD_STRENGTH = 1
+
   def initialize
     @tokens = {}
     @token_count = 0
@@ -10,7 +12,7 @@ class CorpusEx
 
   def lookup(token)
     return @tokens[token] if @tokens[token].present?
-    0
+    UNKNOWN_WORD_STRENGTH
   end
 
   def add(text)
