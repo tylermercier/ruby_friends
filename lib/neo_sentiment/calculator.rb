@@ -1,99 +1,74 @@
+require "#{File.dirname(__FILE__)}/corpus"
+require "#{File.dirname(__FILE__)}/settings"
+
 class Calculator
+  def initialize positive_corpus, negative_corpus
+    @positive_corpus = positive_corpus
+    @negative_corpus = negative_corpus
+  end
 
-  # UNKNOWN_WORD_STRENGTH = 1.0
-  # UNKNOWN_WORD_PROBABILITY = 0.5
-  # TOLERANCE = 0.05
+  def classify(text)
+    @total_probability = 0
+    @inverse_total_probability = 0
 
-  # STOP_WORDS = %w{
-  #     a,able,about,across,after,all,almost,also,am,among,an,and,
-  #     any,are,as,at,be,because,been,but,by,can,cannot,could,dear,
-  #     did,do,does,either,else,ever,every,for,from,get,got,had,has,
-  #     have,he,her,hers,him,his,how,however,i,if,in,into,is,it,its,
-  #     just,least,let,like,likely,may,me,might,most,must,my,neither,
-  #     no,nor,not,of,off,often,on,only,or,other,our,own,rather,
-  #     really,said,say,says,she,should,since,so,some,than,that,the,
-  #     their,them,then,there,these,they,this,tis,to,too,totally,twas,
-  #     us,wants,was,we,were,what,when,where,which,while,who,whom,why,
-  #     will,with,would,yet,you,your
-  # }
+    Parser.tokenize(text).each do |token|
+      next if Settings::STOP_WORDS.include? token
 
-  # def initialize positive_corpus, negative_corpus
-  #   @positive_corpus = positive_corpus
-  #   @negative_corpus = negative_corpus
-  #   @totalProbability = 0;
-  #   @inverseTotalProbability = 0;
-  # end
+      positive_count = @positive_corpus.lookup(token)
+      negative_count = @negative_corpus.lookup(token)
 
-  # def classify(text)
-  #   p "Analyzing phrase: #{text}"
-  #   Document.new(text).each_word do |word|
-  #     next if STOP_WORDS.include? word
+      probability = calculate_probability(
+        positive_count,
+        @positive_corpus.token_count,
+        negative_count,
+        @negative_corpus.token_count
+      )
 
-  #     p "Analyzing word: #{word}"
+      record_probability(probability)
+    end
 
-  #     positive_matches = @positive_corpus.token_count(word)
-  #     p "Postive Count: #{positive_matches}"
-  #     p "Postive Total: #{@positive_corpus.entry_count}"
-  #     negative_matches = @negative_corpus.token_count(word)
-  #     p "Negative Count: #{negative_matches}"
-  #     p "Negative Total: #{@negative_corpus.entry_count}"
+    final_probability = combine_probabilities()
 
-  #     probability = calculate_probability(
-  #       positive_matches,
-  #       @positive_corpus.entry_count,
-  #       negative_matches,
-  #       @negative_corpus.entry_count
-  #     )
-  #     p "Probability: #{probability}"
-  #     record_probability(probability)
-  #   end
+    sentiment = compute_sentiment(final_probability)
 
-  #   p "Total Probability: #{@total_probability}"
-  #   p "Inverse Total Probability: #{@inverse_total_probability}"
+    return { text: text, sentiment: sentiment, probability: final_probability }
+  end
 
-  #   final_probability = combine_probabilities()
-  #   p "final_probability: #{final_probability}"
+  def calculate_probability positive_count, positive_total, negative_count, negative_total
+    total = positive_count + negative_count
+    positive_ratio = positive_count / positive_total
+    negative_ratio = negative_count / negative_total
 
-  #   sentiment = compute_sentiment(final_probability)
-  #   p "sentiment: #{sentiment}"
+    both_ratios = positive_ratio + negative_ratio
+    probability = 0
+    if both_ratios != 0
+      probability = positive_ratio.to_f / both_ratios
+    end
 
-  #   return { text: text, sentiment: sentiment, probability: final_probability }
-  # end
+    default_weight = Settings::UNKNOWN_WORD_STRENGTH * Settings::UNKNOWN_WORD_PROBABILITY
+    actual_weight = total * probability
 
-  # def calculate_probability positive_count, positive_total, negative_count, negative_total
-  #   total = positive_count + negative_count
-  #   positive_ratio = positive_count.to_f / positive_total.to_f
-  #   p "positive_ratio: #{positive_ratio}"
-  #   negative_ratio = negative_count.to_f / negative_total.to_f
-  #   p "negative_ratio: #{negative_ratio}"
+    (default_weight + actual_weight) / (Settings::UNKNOWN_WORD_STRENGTH + total)
+  end
 
-  #   both_ratios = positive_ratio + negative_ratio
-  #   probability = 0
-  #   if both_ratios != 0
-  #     probability = positive_ratio.to_f / both_ratios
-  #   end
+  def record_probability probability
+    return if probability.nan?
 
-  #   ((UNKNOWN_WORD_STRENGTH * UNKNOWN_WORD_PROBABILITY) + (total * probability)) / (UNKNOWN_WORD_STRENGTH + total)
-  # end
+    @total_probability = 1 if @total_probability == 0 || @total_probability.nil?
+    @inverse_total_probability = 1 if @inverse_total_probability == 0 || @inverse_total_probability.nil?
 
-  # def record_probability probability
-  #   return if probability.nan?
+    @total_probability = @total_probability * probability
+    @inverse_total_probability = @inverse_total_probability * (1 - probability)
+  end
 
-  #   @total_probability = 1 if @total_probability == 0 || @total_probability.nil?
-  #   @inverse_total_probability = 1 if @inverse_total_probability == 0 || @inverse_total_probability.nil?
+  def combine_probabilities
+    return 0.5 if @total_probability == 0
+    @total_probability / (@total_probability + @inverse_total_probability)
+  end
 
-  #   @total_probability = @total_probability * probability
-  #   @inverse_total_probability = @inverse_total_probability * (1-probability)
-  # end
-
-  # def combine_probabilities
-  #   return 0.5 if (@total_probability == 0)
-  #   (@total_probability / (@total_probability + @inverse_total_probability))
-  # end
-
-  # def compute_sentiment(probability)
-  #   return -1 if (probability <= (0.5 - TOLERANCE))
-  #   return 1 if (probability >= (0.5 + TOLERANCE))
-  #   0
-  # end
+  def compute_sentiment(probability)
+    return 1 if probability > Settings::POSITIVE_TOLERANCE
+    return -1 if probability < Settings::NEGATIVE_TOLERANCE
+    0
+  end
 end

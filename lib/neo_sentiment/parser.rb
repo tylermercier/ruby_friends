@@ -1,23 +1,15 @@
 class Parser
   def self.tokenize(text)
     Tokenizer.new(text)
-      .clean_text
       .remove_punctuation
       .remove_words_attached_to_symbols
-      .tokenize
-      .clean_tokens
-      .tokens
+      .split_into_tokens
   end
 end
 
 class Tokenizer
   def initialize(text)
-    @text = text
-  end
-
-  def clean_text
-    @text = @text.downcase.strip
-    self
+    @text = text.downcase.strip
   end
 
   def remove_punctuation
@@ -30,17 +22,8 @@ class Tokenizer
     self
   end
 
-  def tokenize
-    @tokens = @text.split(/\W+/)
-    self
-  end
-
-  def clean_tokens
-    @tokens = @tokens.delete_if(&:empty?).uniq
-    self
-  end
-
-  def tokens
-    @tokens
+  def split_into_tokens
+    tokens = @text.split(/\W+/)
+    tokens.delete_if(&:empty?).uniq
   end
 end

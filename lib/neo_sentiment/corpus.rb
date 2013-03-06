@@ -1,9 +1,8 @@
 require "#{File.dirname(__FILE__)}/parser"
+require "#{File.dirname(__FILE__)}/settings"
 
 class CorpusEx
   attr_reader :token_count
-
-  UNKNOWN_WORD_STRENGTH = 1
 
   def initialize
     @tokens = {}
@@ -12,7 +11,7 @@ class CorpusEx
 
   def lookup(token)
     return @tokens[token] if @tokens[token].present?
-    UNKNOWN_WORD_STRENGTH
+    Settings::UNKNOWN_WORD_STRENGTH
   end
 
   def add(text)
