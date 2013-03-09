@@ -17,6 +17,13 @@ class MyApp < Sinatra::Base
     erb :feed
   end
 
+  get "/api/search" do
+    client = Authorization.twitter_client(@current_user)
+    result = client.search 'fairgoods'
+    content_type :json
+    result.to_json
+  end
+
   get "/api/feed" do
     client = Authorization.twitter_client(@current_user)
     following = Following.new(client.home_timeline)
