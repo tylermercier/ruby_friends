@@ -19,9 +19,9 @@ class MyApp < Sinatra::Base
 
   get "/api/search" do
     client = Authorization.twitter_client(@current_user)
-    result = client.search 'fairgoods'
+    result = client.search params[:q]
     content_type :json
-    result.to_json
+    { search_term: params[:q], statuses: Search.new(result)}.to_json
   end
 
   get "/api/feed" do
