@@ -15,7 +15,7 @@ class MyApp < Sinatra::Base
   enable :logging
   set :session_secret, "secret key"
 
-  configure do
+  configure :development do
     Dir.mkdir('log') if !File.exists?('log') || !File.directory?('log')
     ActiveRecord::Base.logger = Logger.new(File.open("log/#{RACK_ENV}.log", "a+"))
     ActiveRecord::Base.configurations = YAML.load_file('config/database.yml')
@@ -24,6 +24,19 @@ class MyApp < Sinatra::Base
 
   configure :production do
     disable :dump_errors, :some_custom_option
+
+    services = JSON.parse(ENV['VCAP_SERVICES'])
+    postgresql_key = services.keys.select { |svc| svc =~ /postgres/i }.first
+    postgresql = services[postgresql_key].first['credentials']
+
+    ActiveRecord::Base.establish_connection(
+      :adapter  => db.scheme == 'postgres' ? 'postgresql' : db.scheme,
+      :host     => postgresql['hostname'],
+      :username => postgresql['user'],
+      :password => postgresql['password'],
+      :database => postgresql['name'],
+      :encoding => 'utf8'
+    )
   end
 
   before do
