@@ -1,6 +1,6 @@
 module AppHelper
   def logged_in?
-    @user.present?
+    @current_user.present?
   end
 
   def pretty_date(time)

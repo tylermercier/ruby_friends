@@ -9,12 +9,12 @@ describe AppHelper do
 
   context '#logged_in?' do
     it 'should return true when user exists' do
-      @helper.instance_variable_set(:@user, true)
+      @helper.instance_variable_set(:@current_user, true)
       @helper.logged_in?.should be_true
     end
 
     it 'should return false when user does not exist' do
-      @helper.instance_variable_set(:@user, nil)
+      @helper.instance_variable_set(:@current_user, nil)
       @helper.logged_in?.should be_false
     end
   end

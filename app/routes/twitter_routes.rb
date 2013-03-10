@@ -16,6 +16,7 @@ class MyApp < Sinatra::Base
     provider :twitter, key, secret
   end
 
+  # http://127.0.0.1:3000/auth/twitter/callback
   get '/auth/:provider/callback' do
     auth_hash = request.env['omniauth.auth']
     user = Authorization.authorize(auth_hash)

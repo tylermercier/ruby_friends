@@ -13,6 +13,7 @@ class Authorization < ActiveRecord::Base
   end
 
   def self.authorize(auth_hash)
+    #print_auth(auth_hash)
     authorization = find_by_twitter_auth(auth_hash)
     if authorization.present?
       authorization.update_from_twitter_auth(auth_hash)
@@ -24,5 +25,13 @@ class Authorization < ActiveRecord::Base
 
   def self.find_by_twitter_auth(auth_hash)
     find_by_provider_and_uid(auth_hash["provider"], auth_hash["uid"])
+  end
+
+  def self.print_auth(auth_hash)
+    puts "Provider: #{auth_hash["provider"]}"
+    puts "UserID: #{auth_hash["uid"]}"
+    puts "Name: #{auth_hash["info"]["name"]}"
+    puts "Token: #{auth_hash["credentials"]["token"]}"
+    puts "Secret: #{auth_hash["credentials"]["secret"]}"
   end
 end
