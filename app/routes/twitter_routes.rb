@@ -1,22 +1,4 @@
-require 'json'
-require 'omniauth'
-require 'omniauth-twitter'
-
 class MyApp < Sinatra::Base
-  twitter_config = YAML.load_file("config/twitter.yml") rescue nil || {}
-  key = ENV['CONSUMER_KEY'] || twitter_config['consumer_key']
-  secret = ENV['CONSUMER_SECRET'] || twitter_config['consumer_secret']
-
-  Twitter.configure do |config|
-    config.consumer_key = key
-    config.consumer_secret = secret
-  end
-
-  use OmniAuth::Builder do
-    provider :twitter, key, secret
-  end
-
-  # http://127.0.0.1:3000/auth/twitter/callback
   get '/auth/:provider/callback' do
     auth_hash = request.env['omniauth.auth']
     user = Authorization.authorize(auth_hash)

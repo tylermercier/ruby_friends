@@ -1,22 +1,4 @@
 class MyApp < Sinatra::Base
-  get "/sentiment" do
-    client = Authorization.twitter_client(@current_user)
-    timeline = client.home_timeline
-    @tweets = timeline.map do |tweet|
-      user = tweet[:user][:screen_name]
-      created_at = tweet[:created_at]
-      text = tweet[:text]
-      sentiment = Sentimentalizer.analyze(text)
-      {
-        user: user,
-        created_at: created_at,
-        text: text,
-        sentiment: sentiment
-      }
-    end
-    erb :feed
-  end
-
   get "/api/search" do
     client = Authorization.twitter_client(@current_user)
     result = client.search params[:q]

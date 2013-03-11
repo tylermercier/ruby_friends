@@ -10,7 +10,8 @@
         <ul>
           <li><a href="/">Home</a></li>
           <% if logged_in? %>
-            <li><a href='/sentiment'>Sentiment</a></li>
+            <li><a href='/api/feed'>Feed</a></li>
+            <li><a href='/api/search'>Search</a></li>
             <li><a href='/logout'>Logout</a></li>
           <% else %>
             <li><a href='/auth/twitter'>Login with twitter</a></li>
