@@ -4,7 +4,7 @@ require 'rspec/core/rake_task'
 require 'pry'
 require './app'
 
-RSpec::Core::RakeTask.new(:spec)
+#RSpec::Core::RakeTask.new(:spec)
 
 task :default => :spec
 
