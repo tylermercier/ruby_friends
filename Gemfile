@@ -2,11 +2,10 @@ source :rubygems
 
 gem "rake"
 gem "sinatra"
-gem "sqlite3"
+
 gem "activerecord"
 gem "sinatra-activerecord"
 gem "sinatra-reloader"
-
 gem "omniauth"
 gem "omniauth-oauth2"
 gem "omniauth-twitter"
@@ -18,6 +17,7 @@ group :development do
 end
 
 group :development, :test do
+  gem "sqlite3"
   gem "rack-test"
   gem "rspec"
   gem "rspec-core"
