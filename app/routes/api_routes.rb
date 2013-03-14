@@ -6,19 +6,18 @@ class MyApp < Sinatra::Base
 
   post "/api/feed" do
     save_user_session(params[:authString])
-    client = Authorization.twitter_client(@current_user)
-    json_response Following.new(client.home_timeline)
+    redirect "/api/feed"
   end
 
   get "/api/feed" do
     client = Authorization.twitter_client(@current_user)
-    json_response Following.new(client.home_timeline)
+    json_response Following.new(client.home_timeline(count: 200))
   end
 
   get "/api/search" do
     client = Authorization.twitter_client(@current_user)
     search_term = params[:q] || 'moodyfriends'
-    result = client.search(search_term)
+    result = client.search(search_term, count: 200)
     json_response search_term: search_term, statuses: Search.new(result)
   end
 

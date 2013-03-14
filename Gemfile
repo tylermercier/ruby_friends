@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem "rake"
+gem "thin"
 gem "sinatra"
 
 gem "activerecord"
@@ -11,16 +12,18 @@ gem "omniauth-oauth2"
 gem "omniauth-twitter"
 gem "twitter"
 
+# blowing up in production
+gem "pry"
+gem "rspec"
+gem "rspec-core"
+
 group :development do
   gem "shotgun"
-  gem "pry"
 end
 
 group :development, :test do
   gem "sqlite3"
   gem "rack-test"
-  gem "rspec"
-  gem "rspec-core"
   gem "simplecov", ">=0.4.2"
 end
 
