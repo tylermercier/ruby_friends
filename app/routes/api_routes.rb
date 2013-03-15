@@ -1,12 +1,13 @@
 class MyApp < Sinatra::Base
   post "/api/twitter_auth" do
-    save_user_session(params[:authString])
+    save_user_session(params)
     redirect "/api/feed"
   end
 
   post "/api/feed" do
-    save_user_session(params[:authString])
-    redirect "/api/feed"
+    save_user_session(params)
+    client = Authorization.twitter_client(@current_user)
+    json_response Following.new(client.home_timeline(count: 200))
   end
 
   get "/api/feed" do
@@ -21,8 +22,8 @@ class MyApp < Sinatra::Base
     json_response search_term: search_term, statuses: Search.new(result)
   end
 
-  def save_user_session(auth_string)
-    user = User.parse_from_auth_string(auth_string)
+  def save_user_session(params)
+    user = Authorization.authorize_form(params)
     session[:user] = user
     @current_user = user
   end

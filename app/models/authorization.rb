@@ -23,6 +23,20 @@ class Authorization < ActiveRecord::Base
     end
   end
 
+  def self.authorize_form(params)
+    authorize({
+      "provider" => "twitter",
+      "uid" => params[:user_id],
+      "info" => {
+        "name" => params[:screen_name]
+      },
+      "credentials" => {
+        "token" => params[:oauth_token],
+        "secret" => params[:oauth_token_secret]
+      }
+    })
+  end
+
   def self.find_by_twitter_auth(auth_hash)
     find_by_provider_and_uid(auth_hash["provider"], auth_hash["uid"])
   end
