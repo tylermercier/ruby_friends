@@ -1,8 +1,8 @@
 require 'spec_helper'
 
-describe CorpusEx do
+describe Corpus do
   before :each do
-    @corpus = CorpusEx.new
+    @corpus = Corpus.new
   end
 
   context '.lookup' do

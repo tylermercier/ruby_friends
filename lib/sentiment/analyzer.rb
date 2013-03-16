@@ -3,8 +3,8 @@ require "#{File.dirname(__FILE__)}/calculator"
 
 class Analyzer
   def initialize
-    @positive = CorpusEx.new
-    @negative = CorpusEx.new
+    @positive = Corpus.new
+    @negative = Corpus.new
   end
 
   def train_positive path

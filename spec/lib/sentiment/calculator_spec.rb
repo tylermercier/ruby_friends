@@ -2,10 +2,10 @@ require 'spec_helper'
 
 describe Calculator do
   before :each do
-    positive_corpus = CorpusEx.new
+    positive_corpus = Corpus.new
     positive_corpus.add 'hello'
     positive_corpus.add 'hello'
-    negative_corpus = CorpusEx.new
+    negative_corpus = Corpus.new
     negative_corpus.add 'hello'
     @calculator = Calculator.new positive_corpus, negative_corpus
   end

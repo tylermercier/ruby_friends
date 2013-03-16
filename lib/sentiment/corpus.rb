@@ -1,22 +1,26 @@
-require "#{File.dirname(__FILE__)}/document"
+require "#{File.dirname(__FILE__)}/parser"
+require "#{File.dirname(__FILE__)}/settings"
 
 class Corpus
+  attr_reader :token_count
+
   def initialize
     @tokens = {}
-    @totalTokens = 0
+    @token_count = 0
   end
 
-  def entry_count
-    #@tokens.values.inject(0, :+)
-    @totalTokens
+  def lookup(token)
+    return @tokens[token] if @tokens[token].present?
+    Settings::UNKNOWN_WORD_STRENGTH
   end
 
-  def add(document)
-    document.each_word do |word|
-      if @tokens[word].present?
-        @tokens[word] = @tokens[word] + 1
+  def add(text)
+    Parser.tokenize(text).each do |token|
+      if @tokens[token].present?
+        @tokens[token] = @tokens[token] + 1
       else
-        @tokens[word] = 0
+        @tokens[token] = 1
+        @token_count = @token_count + 1
       end
     end
   end
@@ -24,21 +28,8 @@ class Corpus
   def load_from_directory(directory)
     Dir.glob("#{directory}/*.txt") do |entry|
       IO.foreach(entry) do |line|
-        add Document.new(line)
+        add line
       end
     end
-    @totalTokens = count_total_entries(@tokens);
-  end
-
-  def token_count(word)
-    @tokens[word] || 0
-  end
-
-  def count_total_entries(tokens)
-    total = 0;
-    tokens.each_value do |word_count|
-      total += word_count
-    end
-    total
   end
 end
