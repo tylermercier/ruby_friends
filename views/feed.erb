@@ -1,10 +1,10 @@
 <ul>
-<% @tweets.each do |tweet| %>
+  <% @tweets.each do |tweet| %>
   <li>
     <h2><%= pretty_time(tweet[:created_at]) %> - <%= tweet[:user] %></h2>
     <div><%= tweet[:sentiment][:text] %></div>
     <div><%= tweet[:sentiment][:sentiment] %></div>
     <div><%= tweet[:sentiment][:probability] %></div>
   </li>
-<% end %>
+  <% end %>
 </ul>

@@ -23,7 +23,8 @@ class Following
   end
 
   def merge_user(existing_user, user)
-    existing_user[:sentiment] = existing_user[:sentiment] + user[:sentiment]
+    tweet_count = existing_user[:tweets].length
+    existing_user[:sentiment] = ((existing_user[:sentiment] * tweet_count) + user[:sentiment]) / (tweet_count + 1)
     existing_user[:tweets] << user[:tweets].first
     existing_user
   end

@@ -17,11 +17,11 @@ describe Authorization do
       @authorization.token = nil
       @authorization.secret = nil
       twitter_auth = {
-          "credentials" => {
-            "token" => "token",
-            "secret" => "secret"
-          }
+        "credentials" => {
+          "token" => "token",
+          "secret" => "secret"
         }
+      }
       @authorization.update_from_twitter_auth(twitter_auth)
     end
 

@@ -8,7 +8,7 @@ class TwitterUser
       name: tweet_data["user"]["name"],
       screen_name: tweet_data["user"]["screen_name"],
       profile_url: tweet_data["user"]["profile_image_url"],
-      sentiment: tweet[:sentiment],
+      sentiment: tweet[:probability],
       source: "twitter",
       tweets: [tweet]
     }

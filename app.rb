@@ -9,7 +9,6 @@ require "omniauth-twitter"
 require "twitter"
 
 require "./lib/neo_sentiment/engine"
-require "./lib/sentiment/sentimentalizer"
 require "./lib/twitter/following"
 require "./lib/twitter/search"
 
