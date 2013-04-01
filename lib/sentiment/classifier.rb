@@ -1,7 +1,7 @@
 require "#{File.dirname(__FILE__)}/corpus"
 require "#{File.dirname(__FILE__)}/settings"
 
-class Calculator
+class Classifier
   def initialize positive_corpus, negative_corpus
     @positive_corpus = positive_corpus
     @negative_corpus = negative_corpus

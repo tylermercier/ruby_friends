@@ -28,7 +28,7 @@ class Corpus
   def load_from_directory(directory)
     Dir.glob("#{directory}/*.txt") do |entry|
       IO.foreach(entry) do |line|
-        add line
+        add(line)
       end
     end
   end
