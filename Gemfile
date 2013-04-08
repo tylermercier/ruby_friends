@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
 
 gem "rake"
-gem "thin"
+gem 'unicorn', '~> 4.6.2'
+gem 'foreman', '~> 0.61.0'
 gem "sinatra"
 
 gem "activerecord"
