@@ -64,6 +64,7 @@ class MyApp < Sinatra::Base
   end
 
   get '/' do
+    Engine.analyze('hello')
     erb :home
   end
 end
