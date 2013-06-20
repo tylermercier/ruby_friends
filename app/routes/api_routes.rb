@@ -1,3 +1,5 @@
+require "benchmark"
+
 class MyApp < Sinatra::Base
   post "/api/twitter_auth" do
     save_user_session(params)
@@ -7,13 +9,23 @@ class MyApp < Sinatra::Base
   post "/api/feed" do
     save_user_session(params)
     client = Authorization.twitter_client(@current_user)
-    result = client.home_timeline(count: 200)
+    result = nil
+    time = Benchmark.measure do
+      result = client.home_timeline(count: 200)
+    end
+    puts "Twitter: #{time}"
+
     json_response Following.new(result)
   end
 
   get "/api/feed" do
     client = Authorization.twitter_client(@current_user)
-    result = client.home_timeline(count: 200)
+    result = nil
+    time = Benchmark.measure do
+      result = client.home_timeline(count: 200)
+    end
+    puts "Twitter: #{time}"
+
     json_response Following.new(result)
   end
 

@@ -15,11 +15,11 @@ class Classifier
       next if Settings::STOP_WORDS.include? token
 
       positive_count = @positive_corpus.lookup(token)
-      p "Postive Count: #{positive_count}"
-      p "Postive Total: #{@positive_corpus.token_count}"
+      #p "Postive Count: #{positive_count}"
+      #p "Postive Total: #{@positive_corpus.token_count}"
       negative_count = @negative_corpus.lookup(token)
-      p "Negative Count: #{negative_count}"
-      p "Negative Total: #{@negative_corpus.token_count}"
+      #p "Negative Count: #{negative_count}"
+      #p "Negative Total: #{@negative_corpus.token_count}"
 
       probability = calculate_probability(
         positive_count,
@@ -27,16 +27,16 @@ class Classifier
         negative_count,
         @negative_corpus.token_count
       )
-      p "Probability: #{probability}"
+      #p "Probability: #{probability}"
 
       record_probability(probability)
     end
 
     final_probability = combine_probabilities()
-    p "final_probability: #{final_probability}"
+    #p "final_probability: #{final_probability}"
 
     sentiment = compute_sentiment(final_probability)
-    p "sentiment: #{sentiment}"
+    #p "sentiment: #{sentiment}"
 
     return {
       text: text,
@@ -48,9 +48,9 @@ class Classifier
   def calculate_probability positive_count, positive_total, negative_count, negative_total
     total = positive_count + negative_count
     positive_ratio = positive_count.to_f / positive_total.to_f
-    p "positive_ratio: #{positive_ratio}"
+    #p "positive_ratio: #{positive_ratio}"
     negative_ratio = negative_count.to_f / negative_total.to_f
-    p "negative_ratio: #{negative_ratio}"
+    #p "negative_ratio: #{negative_ratio}"
 
     both_ratios = positive_ratio + negative_ratio
     probability = 0
